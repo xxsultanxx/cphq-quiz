@@ -1,0 +1,909 @@
+{
+ "domain": 6,
+ "title": "Health Data Analytics",
+ "nahq_domain": "4",
+ "outline": "NAHQ CPHQ Detailed Content Outline (2024 R2b, in 2026 handbook)",
+ "count": 50,
+ "questions": [
+  {
+   "id": "D6-01",
+   "n": 1,
+   "task": "4A3",
+   "task_name": "Identify and select measures (structure, process, outcome, experience)",
+   "cognitive": "recall",
+   "stem": "'Percentage of AMI patients who receive aspirin on arrival' is which type of measure?",
+   "options": {
+    "A": "Process",
+    "B": "Balancing",
+    "C": "Outcome",
+    "D": "Structure"
+   },
+   "correct": "A",
+   "explanation_en": "Process = what is DONE to or for the patient. Outcome = the result (e.g., mortality). Structure = capacity and resources.",
+   "explanation_ar": "نسبة من تلقوا الأسبرين مقياس عملية (Process).",
+   "source": "old Q1 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-02",
+   "n": 2,
+   "task": "4A3",
+   "task_name": "Identify and select measures (structure, process, outcome, experience)",
+   "cognitive": "recall",
+   "stem": "'The hospital has a certified stroke unit and 24/7 neurology coverage' describes which type of measure?",
+   "options": {
+    "A": "Outcome",
+    "B": "Process",
+    "C": "Patient experience",
+    "D": "Structure"
+   },
+   "correct": "D",
+   "explanation_en": "Structure = settings, staff, equipment, and credentials (the capacity to deliver care).",
+   "explanation_ar": "وجود وحدة سكتة معتمدة وتغطية أعصاب مقياس هيكلي (Structure).",
+   "source": "old Q2 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-03",
+   "n": 3,
+   "task": "4A3",
+   "task_name": "Identify and select measures (structure, process, outcome, experience)",
+   "cognitive": "recall",
+   "stem": "'30-day all-cause readmission rate after heart failure discharge' is which type of measure?",
+   "options": {
+    "A": "Outcome",
+    "B": "Balancing",
+    "C": "Process",
+    "D": "Structure"
+   },
+   "correct": "A",
+   "explanation_en": "Outcome = the effect on the patient's health status or utilization. Outcomes are often risk-adjusted for fair comparison.",
+   "explanation_ar": "معدل إعادة الدخول خلال 30 يوماً مقياس نتيجة (Outcome).",
+   "source": "old Q3 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-04",
+   "n": 4,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "recall",
+   "stem": "Patient satisfaction is rated as Very dissatisfied / Dissatisfied / Neutral / Satisfied / Very satisfied. What level of data is this?",
+   "options": {
+    "A": "Interval",
+    "B": "Ordinal",
+    "C": "Nominal",
+    "D": "Ratio"
+   },
+   "correct": "B",
+   "explanation_en": "Ordinal = ordered categories with unequal or unknown spacing. Nominal = categories with no order (e.g., blood type).",
+   "explanation_ar": "مقياس الرضا المتدرج بيانات ترتيبية (Ordinal).",
+   "source": "old Q4 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-05",
+   "n": 5,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "application",
+   "stem": "Length-of-stay data contain several very long outlier stays. Which measure of central tendency BEST represents a typical stay?",
+   "options": {
+    "A": "Mode (most frequent value)",
+    "B": "Mean (arithmetic average)",
+    "C": "Range (maximum minus minimum)",
+    "D": "Median"
+   },
+   "correct": "D",
+   "explanation_en": "The median resists outliers and skew. The mean is pulled toward the tail. Range is a measure of spread, not central tendency.",
+   "explanation_ar": "الوسيط أفضل لتمثيل البيانات الملتوية بالقيم الشاذة.",
+   "source": "old Q5 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-06",
+   "n": 6,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "recall",
+   "stem": "In a normal distribution, approximately what percentage of values fall within +/-2 standard deviations of the mean?",
+   "options": {
+    "A": "50%",
+    "B": "95%",
+    "C": "99.7%",
+    "D": "68%"
+   },
+   "correct": "B",
+   "explanation_en": "Empirical rule: about 68% within 1 SD, 95% within 2 SD, and 99.7% within 3 SD.",
+   "explanation_ar": "حوالي 95% من القيم تقع ضمن انحرافين معياريين.",
+   "source": "old Q6 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-07",
+   "n": 7,
+   "task": "4B5",
+   "task_name": "Use statistical process control techniques and tools (common/special cause, control charts, trend analysis)",
+   "cognitive": "application",
+   "stem": "Each month you plot the percentage of discharges with a completed medication reconciliation. The number of discharges varies each month. Which control chart fits?",
+   "options": {
+    "A": "c-chart",
+    "B": "u-chart",
+    "C": "p-chart",
+    "D": "X-bar and R chart"
+   },
+   "correct": "C",
+   "explanation_en": "p-chart = proportion of units with a yes/no attribute, with variable subgroup size. u-chart = rate of defects per unit of opportunity.",
+   "explanation_ar": "مخطط p للنسب مع اختلاف حجم العينة.",
+   "source": "old Q7 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-08",
+   "n": 8,
+   "task": "4B5",
+   "task_name": "Use statistical process control techniques and tools (common/special cause, control charts, trend analysis)",
+   "cognitive": "application",
+   "stem": "Monthly falls are reported per 1,000 patient-days, and patient-days vary each month. Which control chart fits?",
+   "options": {
+    "A": "u-chart",
+    "B": "np-chart",
+    "C": "p-chart",
+    "D": "XmR (I) chart"
+   },
+   "correct": "A",
+   "explanation_en": "Count of events (a patient can fall more than once) per variable area of opportunity = u-chart. A c-chart needs a constant area of opportunity.",
+   "explanation_ar": "مخطط u للأحداث لكل وحدة فرصة متغيرة.",
+   "source": "old Q8 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-09",
+   "n": 9,
+   "task": "4B5",
+   "task_name": "Use statistical process control techniques and tools (common/special cause, control charts, trend analysis)",
+   "cognitive": "application",
+   "stem": "One data point on a control chart falls above the upper control limit. What is the appropriate response?",
+   "options": {
+    "A": "Redesign the whole process now",
+    "B": "Ignore it, because a single point reflects common-cause variation",
+    "C": "Recalculate the control limits so that they include the new point",
+    "D": "Investigate for a special (assignable) cause"
+   },
+   "correct": "D",
+   "explanation_en": "A point outside the limits signals special-cause variation, so look for the specific cause. Do not tamper with a stable process because of random noise.",
+   "explanation_ar": "النقطة خارج الحدود تعني سبباً خاصاً يجب التحقيق فيه.",
+   "source": "old Q9 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-10",
+   "n": 10,
+   "task": "4B5",
+   "task_name": "Use statistical process control techniques and tools (common/special cause, control charts, trend analysis)",
+   "cognitive": "analysis",
+   "stem": "A process is in statistical control (only common-cause variation), but its average is consistently worse than the target. What should leaders do?",
+   "options": {
+    "A": "Redesign the system (fundamental process change)",
+    "B": "Do nothing, since it is stable",
+    "C": "Investigate each high point individually to find its specific cause",
+    "D": "Widen the control limits so that the target falls within them"
+   },
+   "correct": "A",
+   "explanation_en": "Stable does not mean good. To shift a stable process you must change the system. Reacting to individual common-cause points is tampering.",
+   "explanation_ar": "العملية المستقرة دون الهدف تحتاج إعادة تصميم النظام.",
+   "source": "old Q10 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-11",
+   "n": 11,
+   "task": "4B5",
+   "task_name": "Use statistical process control techniques and tools (common/special cause, control charts, trend analysis)",
+   "cognitive": "recall",
+   "stem": "On a run chart, which pattern signals a shift (a non-random signal)?",
+   "options": {
+    "A": "Points that alternate above and below the median for several weeks",
+    "B": "Any single point on the median",
+    "C": "Six or more consecutive points on one side of the median",
+    "D": "Two consecutive points above the median after a process change"
+   },
+   "correct": "C",
+   "explanation_en": "Common run-chart rules: shift = 6 or more consecutive points on one side of the median (points on the median are skipped); trend = 5 or more consecutive points going up or down.",
+   "explanation_ar": "ست نقاط متتالية أو أكثر في جهة واحدة من الوسيط تعني انزياحاً.",
+   "source": "old Q11 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-12",
+   "n": 12,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "analysis",
+   "stem": "Nurse staffing hours and patient fall rates have a correlation coefficient of r = -0.85. What is the BEST interpretation?",
+   "options": {
+    "A": "Increasing staffing hours causes 85% fewer patient falls on the units",
+    "B": "A weak relationship",
+    "C": "Strong negative relationship; causation not proven",
+    "D": "There is a strong positive relationship between staffing and falls"
+   },
+   "correct": "C",
+   "explanation_en": "r ranges from -1 to +1. A value of -0.85 is strong and inverse. Correlation does not equal causation, a classic trap.",
+   "explanation_ar": "ارتباط سلبي قوي لكنه لا يثبت السببية.",
+   "source": "old Q12 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-13",
+   "n": 13,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "application",
+   "stem": "To test whether MEAN ED wait time differs between two independent clinics, which test is MOST appropriate?",
+   "options": {
+    "A": "Paired t-test of the same patients",
+    "B": "Two-sample t-test",
+    "C": "Pearson correlation coefficient",
+    "D": "Chi-square test of proportions"
+   },
+   "correct": "B",
+   "explanation_en": "A t-test compares the means of continuous data between 2 groups. Chi-square compares categorical proportions. A paired t-test is for the same subjects measured before and after.",
+   "explanation_ar": "اختبار t لعينتين مستقلتين يقارن متوسطين.",
+   "source": "old Q13 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-14",
+   "n": 14,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "application",
+   "stem": "A before-and-after comparison yields p = 0.03 with alpha = 0.05. What is the correct conclusion?",
+   "options": {
+    "A": "The result is clinically important and should be adopted everywhere",
+    "B": "The difference is not statistically significant at the 0.05 level",
+    "C": "Significant; reject the null hypothesis",
+    "D": "A 3% chance the change worked"
+   },
+   "correct": "C",
+   "explanation_en": "p < alpha means reject H0. Statistical significance does not equal clinical or practical importance.",
+   "explanation_ar": "قيمة p أقل من ألفا تعني دلالة إحصائية ورفض الفرضية الصفرية.",
+   "source": "old Q14 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-15",
+   "n": 15,
+   "task": "4B4",
+   "task_name": "Use statistics to describe data and examine relationships (central tendency, SD, correlation, regression, t-test)",
+   "cognitive": "application",
+   "stem": "Which analysis would predict length of stay from several variables at once (age, comorbidity score, and admission source)?",
+   "options": {
+    "A": "Pareto analysis of causes",
+    "B": "Simple correlation of two variables",
+    "C": "Chi-square test of association",
+    "D": "Multiple regression"
+   },
+   "correct": "D",
+   "explanation_en": "Regression models the relationship between predictor(s) and an outcome. Multiple regression uses 2 or more predictors.",
+   "explanation_ar": "الانحدار المتعدد يتنبأ بالنتيجة من عدة متغيرات.",
+   "source": "old Q15 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-16",
+   "n": 16,
+   "task": "4B2",
+   "task_name": "Use data visualization and display techniques",
+   "cognitive": "application",
+   "stem": "Which chart BEST shows the shape of the distribution (for example, skewed or bimodal) of ED wait times?",
+   "options": {
+    "A": "Histogram",
+    "B": "Gantt chart",
+    "C": "Pie chart",
+    "D": "Run chart"
+   },
+   "correct": "A",
+   "explanation_en": "A histogram uses bars of frequency by interval and shows shape, center, and spread. A run chart shows performance over time.",
+   "explanation_ar": "المدرج التكراري يوضح شكل توزيع البيانات.",
+   "source": "old Q16 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-17",
+   "n": 17,
+   "task": "4A2c",
+   "task_name": "Design data collection plans: sampling methodology",
+   "cognitive": "application",
+   "stem": "To make sure each of five units is proportionally represented in a chart audit, which sampling method should be used?",
+   "options": {
+    "A": "Judgment sampling",
+    "B": "Convenience sampling",
+    "C": "Stratified random sampling",
+    "D": "Systematic sampling of every 10th chart hospital-wide"
+   },
+   "correct": "C",
+   "explanation_en": "Stratified sampling divides the population into subgroups (strata) and randomly samples within each. Convenience and judgment samples are non-random and prone to bias.",
+   "explanation_ar": "العينة الطبقية العشوائية تضمن تمثيل كل وحدة.",
+   "source": "old Q17 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-18",
+   "n": 18,
+   "task": "4A4",
+   "task_name": "Collect and validate quantitative and qualitative data",
+   "cognitive": "application",
+   "stem": "Two abstractors independently review the same 30 charts and their results are compared. What is being assessed?",
+   "options": {
+    "A": "Validity of the measure definition",
+    "B": "Inter-rater reliability",
+    "C": "Risk adjustment of the outcome",
+    "D": "Sensitivity of the screening tool"
+   },
+   "correct": "B",
+   "explanation_en": "Reliability = consistency or reproducibility. Validity = measuring what is intended. Agreement between abstractors is inter-rater reliability.",
+   "explanation_ar": "مقارنة مراجعَين لنفس الملفات تقيس الموثوقية بين المقيّمين.",
+   "source": "old Q18 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-19",
+   "n": 19,
+   "task": "4A2a",
+   "task_name": "Design data collection plans: measure development (definitions, goals, thresholds, numerators, denominators)",
+   "cognitive": "application",
+   "stem": "For a CLABSI rate expressed per 1,000 central-line days, what is the denominator?",
+   "options": {
+    "A": "Number of CLABSIs",
+    "B": "Number of ICU admissions",
+    "C": "Total patient-days",
+    "D": "Total central-line days"
+   },
+   "correct": "D",
+   "explanation_en": "Rate = (CLABSI count / central-line days) x 1,000. The denominator must reflect the population at risk (the device days).",
+   "explanation_ar": "مقام معدل CLABSI هو أيام القسطرة المركزية.",
+   "source": "old Q19 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-20",
+   "n": 20,
+   "task": "4B6",
+   "task_name": "Compare data sources to establish benchmarks",
+   "cognitive": "application",
+   "stem": "A quality director compares hospital mortality with a national database, but her hospital treats much sicker patients. What is needed for a fair comparison?",
+   "options": {
+    "A": "Using the mode instead of the mean for mortality",
+    "B": "Risk (case-mix) adjustment",
+    "C": "Removing expected deaths from the numerator",
+    "D": "Showing the data in a larger font on the dashboard"
+   },
+   "correct": "B",
+   "explanation_en": "Benchmarking outcomes across organizations requires adjusting for patient severity and case mix, e.g., observed-to-expected (O/E) ratios.",
+   "explanation_ar": "المقارنة العادلة تتطلب تعديل البيانات حسب شدة الحالات.",
+   "source": "old Q20 (reviewed, key verified)"
+  },
+  {
+   "id": "D6-21",
+   "n": 21,
+   "task": "4A1",
+   "task_name": "Assist in evaluating and developing data management systems to support quality improvement",
+   "cognitive": "application",
+   "stem": "Two departments report different fall rates for the same month from the same EHR. What is the MOST likely cause and fix?",
+   "options": {
+    "A": "Different definitions; build a shared data dictionary",
+    "B": "One department is misreporting and should be disciplined for it",
+    "C": "The EHR is broken; stop measuring",
+    "D": "Random error; average the two numbers and report the mean rate"
+   },
+   "correct": "A",
+   "explanation_en": "A data dictionary standardizes definitions so all users get the same numbers.",
+   "explanation_ar": "اختلاف التعريفات يُعالج بقاموس بيانات موحد.",
+   "source": "new"
+  },
+  {
+   "id": "D6-22",
+   "n": 22,
+   "task": "4A1",
+   "task_name": "Assist in evaluating and developing data management systems to support quality improvement",
+   "cognitive": "recall",
+   "stem": "Which term describes the policies and accountabilities that ensure data are accurate, secure, and used appropriately across the organization?",
+   "options": {
+    "A": "Data mining",
+    "B": "Data entry",
+    "C": "Data visualization",
+    "D": "Data governance"
+   },
+   "correct": "D",
+   "explanation_en": "Data governance defines ownership, standards, quality, and access rules.",
+   "explanation_ar": "حوكمة البيانات تضمن دقتها وأمنها وحسن استخدامها.",
+   "source": "new"
+  },
+  {
+   "id": "D6-23",
+   "n": 23,
+   "task": "4A1",
+   "task_name": "Assist in evaluating and developing data management systems to support quality improvement",
+   "cognitive": "analysis",
+   "stem": "The quality team is choosing between claims data and manual chart abstraction to monitor sepsis care. Which statement BEST guides the choice?",
+   "options": {
+    "A": "Claims: cheap and large but less clinical detail; charts: richer, costlier",
+    "B": "Claims data always contain more clinical detail than manual chart abstraction",
+    "C": "Both sources are identical in cost, timeliness, and level of clinical detail",
+    "D": "Chart abstraction is always cheaper and faster than using administrative claims"
+   },
+   "correct": "A",
+   "explanation_en": "Source selection weighs cost, timeliness, and clinical detail for the measure's purpose.",
+   "explanation_ar": "بيانات المطالبات رخيصة لكنها أقل تفصيلاً سريرياً من مراجعة الملفات.",
+   "source": "new"
+  },
+  {
+   "id": "D6-24",
+   "n": 24,
+   "task": "4A2a",
+   "task_name": "Design data collection plans: measure development (definitions, goals, thresholds, numerators, denominators)",
+   "cognitive": "application",
+   "stem": "For the measure 'percentage of eligible patients receiving VTE prophylaxis within 24 hours of admission,' what is the numerator?",
+   "options": {
+    "A": "Eligible patients with documented contraindications to prophylaxis",
+    "B": "All patients admitted to the hospital during the reporting month",
+    "C": "Patients who developed a VTE",
+    "D": "Eligible patients given prophylaxis within 24 hours"
+   },
+   "correct": "D",
+   "explanation_en": "The numerator counts patients who meet the measure criteria; the denominator is all eligible patients.",
+   "explanation_ar": "البسط هو المرضى المؤهلون الذين تلقوا الوقاية خلال 24 ساعة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-25",
+   "n": 25,
+   "task": "4A2a",
+   "task_name": "Design data collection plans: measure development (definitions, goals, thresholds, numerators, denominators)",
+   "cognitive": "recall",
+   "stem": "What is the difference between a target and a threshold in measure development?",
+   "options": {
+    "A": "They mean the same thing and can be used interchangeably in reports",
+    "B": "Target = goal; threshold = level that triggers action",
+    "C": "A threshold is the external benchmark from top-performing hospitals",
+    "D": "A target is the minimum level"
+   },
+   "correct": "B",
+   "explanation_en": "Targets express aims; thresholds trigger investigation; benchmarks are external best performance.",
+   "explanation_ar": "الهدف هو الأداء المرغوب، والعتبة مستوى يستدعي المراجعة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-26",
+   "n": 26,
+   "task": "4A2a",
+   "task_name": "Design data collection plans: measure development (definitions, goals, thresholds, numerators, denominators)",
+   "cognitive": "analysis",
+   "stem": "A hospital reports 'falls per 100 admissions,' while the benchmark uses 'falls per 1,000 patient-days.' Length of stay is longer than average. What is the BEST action?",
+   "options": {
+    "A": "Multiply the rate by 10",
+    "B": "Compare the two numbers directly, since both measure inpatient falls",
+    "C": "Recalculate with the benchmark's definition first",
+    "D": "Drop the benchmark and compare only with the hospital's prior year"
+   },
+   "correct": "C",
+   "explanation_en": "Valid comparison requires identical numerator and denominator definitions.",
+   "explanation_ar": "أعد الحساب بنفس تعريف المعيار المرجعي قبل المقارنة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-27",
+   "n": 27,
+   "task": "4A2b",
+   "task_name": "Design data collection plans: tools and techniques",
+   "cognitive": "application",
+   "stem": "Which data collection tool is BEST for real-time observation of hand hygiene on a unit?",
+   "options": {
+    "A": "A free-text diary kept by the unit manager during the shift",
+    "B": "A retrospective chart review of documented hand hygiene",
+    "C": "A standardized observation form with defined moments",
+    "D": "A patient satisfaction survey asking about staff hand washing"
+   },
+   "correct": "C",
+   "explanation_en": "Structured observation tools with clear definitions improve consistency.",
+   "explanation_ar": "نموذج ملاحظة موحد بتعريفات واضحة يحسن الاتساق.",
+   "source": "new"
+  },
+  {
+   "id": "D6-28",
+   "n": 28,
+   "task": "4A2b",
+   "task_name": "Design data collection plans: tools and techniques",
+   "cognitive": "analysis",
+   "stem": "Abstractors interpret 'timely antibiotic' differently, producing inconsistent data. What is the BEST fix?",
+   "options": {
+    "A": "Let each abstractor decide",
+    "B": "Stop collecting the measure because the data are inconsistent",
+    "C": "Use only one abstractor permanently so interpretation never varies",
+    "D": "Clear instructions with examples, retraining, and retesting"
+   },
+   "correct": "D",
+   "explanation_en": "Clear guidelines and training improve reliability; agreement should be rechecked.",
+   "explanation_ar": "تعليمات واضحة مع إعادة التدريب ثم قياس الاتفاق مجدداً.",
+   "source": "new"
+  },
+  {
+   "id": "D6-29",
+   "n": 29,
+   "task": "4A2c",
+   "task_name": "Design data collection plans: sampling methodology",
+   "cognitive": "recall",
+   "stem": "Selecting every 10th discharge from a list after a random start is which sampling method?",
+   "options": {
+    "A": "Stratified sampling",
+    "B": "Judgment sampling",
+    "C": "Systematic sampling",
+    "D": "Convenience sampling"
+   },
+   "correct": "C",
+   "explanation_en": "Systematic sampling uses a fixed interval after a random starting point.",
+   "explanation_ar": "اختيار كل عاشر حالة بعد بداية عشوائية عينة منتظمة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-30",
+   "n": 30,
+   "task": "4A2c",
+   "task_name": "Design data collection plans: sampling methodology",
+   "cognitive": "application",
+   "stem": "An auditor reviews only charts that are easy to find on the unit shelf. What is the main risk?",
+   "options": {
+    "A": "Excessive randomness in the chart selection",
+    "B": "Selection bias (convenience sample)",
+    "C": "A sample that is too large to review accurately",
+    "D": "Poor inter-rater reliability between auditors"
+   },
+   "correct": "B",
+   "explanation_en": "Convenience samples are non-random and may not represent the population.",
+   "explanation_ar": "العينة الملائمة غير عشوائية وتسبب التحيز.",
+   "source": "new"
+  },
+  {
+   "id": "D6-31",
+   "n": 31,
+   "task": "4A3",
+   "task_name": "Identify and select measures (structure, process, outcome, experience)",
+   "cognitive": "application",
+   "stem": "A team reducing ED wait times also tracks 'patients leaving against medical advice.' What type of measure is this?",
+   "options": {
+    "A": "Structure measure",
+    "B": "Outcome measure of the main aim",
+    "C": "Balancing measure",
+    "D": "Process measure of the main aim"
+   },
+   "correct": "C",
+   "explanation_en": "Balancing measures detect unintended consequences of a change.",
+   "explanation_ar": "هذا مقياس توازن لرصد الآثار غير المقصودة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-32",
+   "n": 32,
+   "task": "4A4",
+   "task_name": "Collect and validate quantitative and qualitative data",
+   "cognitive": "application",
+   "stem": "Before presenting monthly CLABSI data, what validation step is MOST important?",
+   "options": {
+    "A": "Remove the highest month as an outlier before showing the trend",
+    "B": "Check cases against definitions and line-day completeness",
+    "C": "Present the data without checking, since it comes from the EHR",
+    "D": "Round the numbers"
+   },
+   "correct": "B",
+   "explanation_en": "Validation confirms numerator cases and denominators are accurate and complete.",
+   "explanation_ar": "تحقق من الحالات وفق التعريفات واكتمال أيام القسطرة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-33",
+   "n": 33,
+   "task": "4A4",
+   "task_name": "Collect and validate quantitative and qualitative data",
+   "cognitive": "recall",
+   "stem": "Which method is BEST for collecting qualitative data about why patients feel discharge instructions are confusing?",
+   "options": {
+    "A": "Claims data review of readmissions",
+    "B": "Regression analysis of discharge times",
+    "C": "Control charts of complaint counts",
+    "D": "Patient interviews or focus groups"
+   },
+   "correct": "D",
+   "explanation_en": "Qualitative methods capture reasons and experiences in patients' own words.",
+   "explanation_ar": "المقابلات ومجموعات النقاش تجمع بيانات نوعية عن الأسباب.",
+   "source": "new"
+  },
+  {
+   "id": "D6-34",
+   "n": 34,
+   "task": "4A5",
+   "task_name": "Identify external data sources for comparison and benchmarking",
+   "cognitive": "recall",
+   "stem": "Which is an example of an external data source for comparing hospital infection rates?",
+   "options": {
+    "A": "Unit huddle notes from infection meetings",
+    "B": "CDC NHSN",
+    "C": "Employee time cards and staffing reports",
+    "D": "The hospital's own incident reporting system"
+   },
+   "correct": "B",
+   "explanation_en": "NHSN provides national comparative data for HAIs.",
+   "explanation_ar": "شبكة NHSN مصدر خارجي لمقارنة معدلات العدوى.",
+   "source": "new"
+  },
+  {
+   "id": "D6-35",
+   "n": 35,
+   "task": "4A5",
+   "task_name": "Identify external data sources for comparison and benchmarking",
+   "cognitive": "application",
+   "stem": "A hospital wants to compare its patient-experience scores with peers. Which external source fits BEST?",
+   "options": {
+    "A": "The hospital's Facebook page reviews",
+    "B": "Staff engagement survey results",
+    "C": "Internal comment cards from inpatient units",
+    "D": "Publicly reported HCAHPS results"
+   },
+   "correct": "D",
+   "explanation_en": "Standardized, publicly reported surveys allow valid external comparison.",
+   "explanation_ar": "نتائج HCAHPS المنشورة تسمح بالمقارنة الخارجية.",
+   "source": "new"
+  },
+  {
+   "id": "D6-36",
+   "n": 36,
+   "task": "4A6",
+   "task_name": "Design scorecards and dashboards for different audiences",
+   "cognitive": "application",
+   "stem": "What should a board-level quality scorecard MOSTLY contain?",
+   "options": {
+    "A": "Every measure collected anywhere in the hospital each month",
+    "B": "Patient names for each event",
+    "C": "Daily unit staffing grids and overtime hours for all departments",
+    "D": "A few strategic measures with trends and targets"
+   },
+   "correct": "D",
+   "explanation_en": "Boards need concise, strategic, trended information.",
+   "explanation_ar": "بطاقة المجلس تحتوي مقاييس استراتيجية قليلة مع الاتجاهات والأهداف.",
+   "source": "new"
+  },
+  {
+   "id": "D6-37",
+   "n": 37,
+   "task": "4A6",
+   "task_name": "Design scorecards and dashboards for different audiences",
+   "cognitive": "recall",
+   "stem": "Which statement BEST distinguishes a dashboard from a scorecard?",
+   "options": {
+    "A": "They are identical tools that simply use different color schemes",
+    "B": "Dashboard: real-time operations; scorecard: periodic strategic targets",
+    "C": "A dashboard never uses graphs, while a scorecard always uses charts",
+    "D": "A scorecard is always real-time, while a dashboard is updated yearly"
+   },
+   "correct": "B",
+   "explanation_en": "Dashboards support operations; scorecards support strategic review.",
+   "explanation_ar": "لوحة المعلومات تشغيلية آنية، وبطاقة الأداء استراتيجية دورية.",
+   "source": "new"
+  },
+  {
+   "id": "D6-38",
+   "n": 38,
+   "task": "4A6",
+   "task_name": "Design scorecards and dashboards for different audiences",
+   "cognitive": "analysis",
+   "stem": "A unit dashboard uses red/green colors based on a single month versus target, causing managers to react to every red month. What is the BEST redesign?",
+   "options": {
+    "A": "Trend the data with SPC limits to separate signal from noise",
+    "B": "Remove all targets so managers stop reacting to the red months",
+    "C": "Show only the green months so that the units are not discouraged",
+    "D": "Use brighter colors so the red months stand out more clearly"
+   },
+   "correct": "A",
+   "explanation_en": "Single-point red/green displays encourage tampering; trends with limits support good decisions.",
+   "explanation_ar": "اعرض الاتجاه الزمني مع حدود التحكم للتمييز بين الإشارة والضجيج.",
+   "source": "new"
+  },
+  {
+   "id": "D6-39",
+   "n": 39,
+   "task": "4B1",
+   "task_name": "Use data management systems for organization, analysis, and reporting of data",
+   "cognitive": "application",
+   "stem": "A quality analyst needs to combine lab results, medication data, and admissions to report sepsis outcomes monthly. What is MOST efficient?",
+   "options": {
+    "A": "A data warehouse query linking sources in a standard report",
+    "B": "Estimate from last year's report",
+    "C": "Ask nurses to tally sepsis cases by hand at the end of every shift",
+    "D": "Manually copy data from each separate system into a spreadsheet"
+   },
+   "correct": "A",
+   "explanation_en": "Integrated data systems enable reliable, repeatable reporting.",
+   "explanation_ar": "مستودع البيانات يربط المصادر ويُنتج تقريراً قياسياً.",
+   "source": "new"
+  },
+  {
+   "id": "D6-40",
+   "n": 40,
+   "task": "4B1",
+   "task_name": "Use data management systems for organization, analysis, and reporting of data",
+   "cognitive": "recall",
+   "stem": "Which action protects patient privacy when using data management systems for QI analysis?",
+   "options": {
+    "A": "Storing analysis files on personal USB drives",
+    "B": "Role-based, minimum necessary access",
+    "C": "Emailing full patient records to all team members",
+    "D": "Sharing one login password among the analyst team"
+   },
+   "correct": "B",
+   "explanation_en": "Access controls and minimum necessary use protect PHI.",
+   "explanation_ar": "صلاحيات حسب الدور والحد الأدنى من البيانات تحمي الخصوصية.",
+   "source": "new"
+  },
+  {
+   "id": "D6-41",
+   "n": 41,
+   "task": "4B2",
+   "task_name": "Use data visualization and display techniques",
+   "cognitive": "application",
+   "stem": "Leaders want to see which of 10 complaint categories account for most complaints. Which display is BEST?",
+   "options": {
+    "A": "Run chart",
+    "B": "Histogram",
+    "C": "Pareto chart",
+    "D": "Scatter diagram"
+   },
+   "correct": "C",
+   "explanation_en": "Pareto charts rank categories and show cumulative percentage.",
+   "explanation_ar": "مخطط باريتو يرتب الفئات حسب تكرارها.",
+   "source": "new"
+  },
+  {
+   "id": "D6-42",
+   "n": 42,
+   "task": "4B2",
+   "task_name": "Use data visualization and display techniques",
+   "cognitive": "application",
+   "stem": "Which display BEST shows monthly CLABSI rates over two years for a unit?",
+   "options": {
+    "A": "Bar chart of the most recent month",
+    "B": "Pie chart of infections by device type",
+    "C": "Pareto chart of infections by organism",
+    "D": "Run chart or control chart"
+   },
+   "correct": "D",
+   "explanation_en": "Time-ordered displays show trends and variation.",
+   "explanation_ar": "مخطط التشغيل أو التحكم يعرض البيانات عبر الزمن.",
+   "source": "new"
+  },
+  {
+   "id": "D6-43",
+   "n": 43,
+   "task": "4B3",
+   "task_name": "Use measurement tools to evaluate process improvement",
+   "cognitive": "application",
+   "stem": "A team tests a new triage process. Which approach BEST shows whether the change led to improvement?",
+   "options": {
+    "A": "Compare one day before and after",
+    "B": "Count the number of triage redesign meetings that were held",
+    "C": "Ask the ED staff whether the new process feels any faster",
+    "D": "Annotated run chart of door-to-provider time"
+   },
+   "correct": "D",
+   "explanation_en": "Annotated run charts show whether changes coincide with non-random shifts.",
+   "explanation_ar": "مخطط التشغيل مع توضيح بداية التغيير يبين أثره.",
+   "source": "new"
+  },
+  {
+   "id": "D6-44",
+   "n": 44,
+   "task": "4B3",
+   "task_name": "Use measurement tools to evaluate process improvement",
+   "cognitive": "analysis",
+   "stem": "After a change, a run chart shows 7 consecutive points below the median for a measure where lower is better. What is the BEST interpretation?",
+   "options": {
+    "A": "A data error that should be corrected",
+    "B": "Deterioration in performance after the change",
+    "C": "A shift showing non-random improvement",
+    "D": "Random variation that needs no further attention"
+   },
+   "correct": "C",
+   "explanation_en": "Six or more consecutive points on one side of the median indicate a shift.",
+   "explanation_ar": "سبع نقاط متتالية تحت الوسيط تعني انزياحاً يدل على تحسن.",
+   "source": "new"
+  },
+  {
+   "id": "D6-45",
+   "n": 45,
+   "task": "4B3",
+   "task_name": "Use measurement tools to evaluate process improvement",
+   "cognitive": "recall",
+   "stem": "Which set of measures does the Model for Improvement recommend for evaluating change?",
+   "options": {
+    "A": "Only outcome measures tied to the aim",
+    "B": "Outcome, process, and balancing measures",
+    "C": "Only patient satisfaction and experience measures",
+    "D": "Only cost and financial return measures"
+   },
+   "correct": "B",
+   "explanation_en": "Using all three gives a complete picture of the effect of the change.",
+   "explanation_ar": "مقاييس النتيجة والعملية والتوازن معاً.",
+   "source": "new"
+  },
+  {
+   "id": "D6-46",
+   "n": 46,
+   "task": "4B6",
+   "task_name": "Compare data sources to establish benchmarks",
+   "cognitive": "analysis",
+   "stem": "A hospital's observed/expected (O/E) mortality ratio is 1.25. What does this mean?",
+   "options": {
+    "A": "The data are invalid because O/E cannot exceed 1",
+    "B": "Mortality is 25% lower than expected for its patient mix",
+    "C": "Mortality is 25% higher than expected",
+    "D": "Mortality equals the expected rate after risk adjustment"
+   },
+   "correct": "C",
+   "explanation_en": "O/E above 1 for an adverse outcome indicates worse-than-expected performance.",
+   "explanation_ar": "نسبة O/E أعلى من 1 تعني وفيات أكثر من المتوقع بـ 25%.",
+   "source": "new"
+  },
+  {
+   "id": "D6-47",
+   "n": 47,
+   "task": "4B6",
+   "task_name": "Compare data sources to establish benchmarks",
+   "cognitive": "application",
+   "stem": "Which comparison is an internal benchmark?",
+   "options": {
+    "A": "Comparing the hospital's own units",
+    "B": "Comparing results with a published clinical trial",
+    "C": "Comparing with a hospital in another country",
+    "D": "Comparing with NHSN national comparative data"
+   },
+   "correct": "A",
+   "explanation_en": "Internal benchmarking compares units or sites within the same organization.",
+   "explanation_ar": "المقارنة بين وحدات المستشفى نفسها مقارنة داخلية.",
+   "source": "new"
+  },
+  {
+   "id": "D6-48",
+   "n": 48,
+   "task": "4B7",
+   "task_name": "Interpret data to support decision-making",
+   "cognitive": "analysis",
+   "stem": "A medication-error control chart shows all points within limits, with no patterns, and the mean is at target. A manager wants to retrain staff after one high month. What is the BEST advice?",
+   "options": {
+    "A": "Don't react to one common-cause point; keep monitoring",
+    "B": "Redesign the whole process",
+    "C": "Retrain all nursing staff immediately on medication safety",
+    "D": "Recalculate the control limits so that they exclude the high month"
+   },
+   "correct": "A",
+   "explanation_en": "Reacting to common-cause variation (tampering) increases variation.",
+   "explanation_ar": "لا تتفاعل مع نقطة ضمن الحدود؛ استمر في المراقبة.",
+   "source": "new"
+  },
+  {
+   "id": "D6-49",
+   "n": 49,
+   "task": "4B7",
+   "task_name": "Interpret data to support decision-making",
+   "cognitive": "application",
+   "stem": "A new protocol lowered LOS by 0.1 day with p = 0.01 in a sample of 20,000 patients. How should leaders interpret this?",
+   "options": {
+    "A": "Not statistically significant at the 0.05 level",
+    "B": "Significant, but may not be practically meaningful",
+    "C": "Highly important clinically and should be adopted everywhere",
+    "D": "Proof that the protocol caused the reduction in length of stay"
+   },
+   "correct": "B",
+   "explanation_en": "Large samples make tiny differences significant; judge practical importance too.",
+   "explanation_ar": "الدلالة الإحصائية لا تعني بالضرورة أهمية عملية.",
+   "source": "new"
+  },
+  {
+   "id": "D6-50",
+   "n": 50,
+   "task": "4B7",
+   "task_name": "Interpret data to support decision-making",
+   "cognitive": "analysis",
+   "stem": "Readmissions rose last quarter. Before recommending action, what should the analyst check FIRST?",
+   "options": {
+    "A": "Whether the change is real (validity, definitions, signal)",
+    "B": "Which staff members were on duty when the readmitted patients left",
+    "C": "How competitor hospitals performed on readmissions last quarter",
+    "D": "The approved budget for next year's readmission program"
+   },
+   "correct": "A",
+   "explanation_en": "Confirm data integrity and a true signal before acting on apparent changes.",
+   "explanation_ar": "تأكد أولاً من صحة البيانات ووجود إشارة حقيقية قبل اتخاذ القرار.",
+   "source": "new"
+  }
+ ]
+}

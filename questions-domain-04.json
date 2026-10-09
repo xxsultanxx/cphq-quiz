@@ -1,0 +1,909 @@
+{
+ "domain": 4,
+ "title": "Patient Safety",
+ "nahq_domain": "5",
+ "outline": "NAHQ CPHQ Detailed Content Outline (2024 R2b, in 2026 handbook)",
+ "count": 50,
+ "questions": [
+  {
+   "id": "D4-01",
+   "n": 1,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "recall",
+   "stem": "Which error type is barcode medication administration (BCMA) PRIMARILY designed to prevent?",
+   "options": {
+    "A": "Bedside administration errors (wrong patient or drug)",
+    "B": "Prescribing errors caused by incorrect dose selection by physicians",
+    "C": "Drug procurement errors",
+    "D": "Errors in pharmacy inventory counts and expiry date tracking"
+   },
+   "correct": "A",
+   "explanation_en": "BCMA verifies patient and medication at the point of administration. Prescribing errors are addressed mainly by CPOE with decision support. Workarounds (e.g., scanning copied labels) defeat BCMA.",
+   "explanation_ar": "نظام الباركود يمنع أخطاء الإعطاء مثل المريض أو الدواء الخطأ.",
+   "source": "old Q1 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-02",
+   "n": 2,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "application",
+   "stem": "Physicians override 92% of CPOE drug-interaction alerts. What is the BEST action?",
+   "options": {
+    "A": "Make every drug-interaction alert a hard stop that cannot be overridden",
+    "B": "Refine alert logic to cut low-value alerts and alert fatigue",
+    "C": "Discipline high overriders",
+    "D": "Turn off all interaction alerts, since physicians ignore them anyway"
+   },
+   "correct": "B",
+   "explanation_en": "Very high override rates signal alert fatigue; tuning alerts preserves attention for important warnings. Hard stops for all alerts create workarounds; turning all off removes protection.",
+   "explanation_ar": "ارتفاع تجاوز التنبيهات يدل على إجهاد التنبيهات؛ حسّن منطقها.",
+   "source": "old Q2 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-03",
+   "n": 3,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "application",
+   "stem": "Smart infusion pumps reduce infusion errors MOST effectively when:",
+   "options": {
+    "A": "Nurses bypass it for urgent infusions",
+    "B": "The pumps are used only in the ICU where nurses are most experienced",
+    "C": "The drug library with dose limits is used consistently",
+    "D": "Pump alarms are silenced during night shifts to reduce noise for patients"
+   },
+   "correct": "C",
+   "explanation_en": "Smart pump safety depends on drug-library compliance; bypassing it ('basic mode') removes dose-limit protection. Library compliance is itself a useful monitoring measure.",
+   "explanation_ar": "مضخات التسريب الذكية فعالة عند الالتزام بمكتبة الأدوية.",
+   "source": "old Q3 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-04",
+   "n": 4,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "application",
+   "stem": "A nurse skipped a required independent double-check because unit norms treat it as optional when busy. No harm occurred. Using Just Culture, how should this be managed?",
+   "options": {
+    "A": "Console the nurse, because skipping the check was an inadvertent slip",
+    "B": "Impose disciplinary action, because this was clearly reckless behavior",
+    "C": "No action, since no harm occurred",
+    "D": "Coach the nurse and fix the norm that made the drift acceptable"
+   },
+   "correct": "D",
+   "explanation_en": "Choosing to drift from a rule because the risk is not recognized or seems justified is at-risk behavior → coaching plus fixing incentives/system. Human error → console; reckless (conscious disregard of substantial risk) → sanction. Outcome should not determine the response.",
+   "explanation_ar": "الانحراف عن القاعدة سلوك محفوف بالمخاطر يتطلب التوجيه وإصلاح النظام.",
+   "source": "old Q4 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-05",
+   "n": 5,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "recall",
+   "stem": "Which tool is used to measure staff perceptions of patient safety culture?",
+   "options": {
+    "A": "AHRQ Surveys on Patient Safety Culture (SOPS)",
+    "B": "HCAHPS hospital patient experience survey",
+    "C": "IHI Global Trigger Tool for adverse events",
+    "D": "Failure Mode and Effects Analysis (FMEA) worksheet"
+   },
+   "correct": "A",
+   "explanation_en": "SOPS (formerly HSOPS) measures staff perceptions of safety culture. HCAHPS measures patient experience; the Global Trigger Tool detects adverse events; FMEA is a proactive risk assessment.",
+   "explanation_ar": "استبيانات AHRQ SOPS تقيس ثقافة السلامة لدى الموظفين.",
+   "source": "old Q5 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-06",
+   "n": 6,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "recall",
+   "stem": "What is the PRIMARY purpose of a brief daily safety huddle?",
+   "options": {
+    "A": "Conduct a full root cause analysis of yesterday's reported events",
+    "B": "Share current safety concerns and anticipate risks for the day",
+    "C": "Review the monthly unit budget",
+    "D": "Assign responsibility and blame for the previous day's safety events"
+   },
+   "correct": "B",
+   "explanation_en": "Safety huddles are short, frequent, forward-looking situational awareness tools that escalate concerns quickly. Deep analysis happens elsewhere; blame undermines reporting.",
+   "explanation_ar": "اجتماع السلامة اليومي القصير لمشاركة المخاطر الحالية والمتوقعة.",
+   "source": "old Q6 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-07",
+   "n": 7,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "application",
+   "stem": "Following an event, several actions are proposed. Which is the STRONGEST according to the action hierarchy?",
+   "options": {
+    "A": "Re-educate all nursing staff on tubing safety at the next skills fair",
+    "B": "Write a new policy requiring two-person checks of tubing connections",
+    "C": "Redesign connectors so wrong tubing cannot connect",
+    "D": "Add a warning label to tubing"
+   },
+   "correct": "C",
+   "explanation_en": "Stronger actions are architectural/physical changes and forcing functions that do not rely on memory or vigilance. Training, policies and warnings are weaker actions.",
+   "explanation_ar": "إعادة تصميم الوصلات بحيث يستحيل الخطأ هو الإجراء الأقوى.",
+   "source": "old Q7 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-08",
+   "n": 8,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "application",
+   "stem": "A junior nurse voices concern that a patient is deteriorating, and the team pauses the procedure to reassess. Which high-reliability principle does this BEST illustrate?",
+   "options": {
+    "A": "Deference to expertise",
+    "B": "Reluctance to simplify",
+    "C": "Commitment to resilience",
+    "D": "Preoccupation with failure"
+   },
+   "correct": "A",
+   "explanation_en": "Deference to expertise means decisions migrate to the person with the most relevant knowledge, regardless of rank. The other principles are valid HRO principles but describe different behaviors.",
+   "explanation_ar": "الاحترام للخبرة يعني أن القرار لصاحب المعرفة لا لصاحب الرتبة.",
+   "source": "old Q8 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-09",
+   "n": 9,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "recall",
+   "stem": "A physician orders '0.5 mg' and the nurse repeats back '0.5 mg IV now, correct?' and the physician confirms. Which TeamSTEPPS technique is this?",
+   "options": {
+    "A": "SBAR structured situation report",
+    "B": "Two-challenge rule for raising concerns",
+    "C": "CUS escalation ('concerned, uncomfortable, safety')",
+    "D": "Check-back (closed-loop communication)"
+   },
+   "correct": "D",
+   "explanation_en": "Check-back closes the communication loop: sender → receiver repeats → sender confirms. SBAR structures a report; two-challenge rule and CUS are assertion/escalation tools.",
+   "explanation_ar": "إعادة التأكيد (Check-back) تغلق حلقة التواصل.",
+   "source": "old Q9 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-10",
+   "n": 10,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "recall",
+   "stem": "In the 'Swiss cheese' model of accident causation, latent conditions are BEST described as:",
+   "options": {
+    "A": "Errors made by the person at the sharp end at the time of the event",
+    "B": "Hidden system weaknesses that combine with active failures",
+    "C": "Patients' underlying diseases and comorbidities that raise their risk",
+    "D": "Deliberate policy violations"
+   },
+   "correct": "B",
+   "explanation_en": "Reason's model distinguishes active failures (sharp end, immediate) from latent conditions (blunt end: design, management decisions, workload) that create holes in defenses.",
+   "explanation_ar": "الظروف الكامنة نقاط ضعف خفية في النظام تتحد مع الأخطاء النشطة.",
+   "source": "old Q10 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-11",
+   "n": 11,
+   "task": "5F1",
+   "task_name": "Safety and risk management: safety event/incident reporting",
+   "cognitive": "analysis",
+   "stem": "After a manager publicly disciplined staff for reported errors, incident reports dropped 40%. What is the MOST likely interpretation?",
+   "options": {
+    "A": "Safety has improved",
+    "B": "The reporting system is working well and needs no change",
+    "C": "Under-reporting due to fear, not safer care",
+    "D": "Staff are now more competent after the disciplinary action"
+   },
+   "correct": "C",
+   "explanation_en": "Report volume reflects reporting culture. A sudden drop after punitive responses suggests reduced psychological safety. Higher reporting with lower harm is generally a healthy sign.",
+   "explanation_ar": "انخفاض البلاغات بعد العقاب يعني نقص الإبلاغ خوفاً لا تحسن السلامة.",
+   "source": "old Q11 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-12",
+   "n": 12,
+   "task": "5F1",
+   "task_name": "Safety and risk management: safety event/incident reporting",
+   "cognitive": "application",
+   "stem": "Pharmacy dispenses the wrong medication; the nurse notices it before administration. How is this event classified?",
+   "options": {
+    "A": "Near miss (good catch)",
+    "B": "Adverse event with harm",
+    "C": "Sentinel event requiring review",
+    "D": "No-harm event that reached the patient"
+   },
+   "correct": "A",
+   "explanation_en": "A near miss does not reach the patient. A no-harm event reaches the patient without harm; an adverse event causes harm; a sentinel event involves death, permanent harm, or severe temporary harm.",
+   "explanation_ar": "الخطأ الذي اكتُشف قبل وصوله للمريض حدث وشيك (Near miss).",
+   "source": "old Q12 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-13",
+   "n": 13,
+   "task": "5F2",
+   "task_name": "Safety and risk management: sentinel/unexpected event review",
+   "cognitive": "recall",
+   "stem": "Within what timeframe does The Joint Commission expect an organization to complete a comprehensive systematic analysis and action plan after becoming aware of a sentinel event?",
+   "options": {
+    "A": "24 hours after the event",
+    "B": "7 calendar days after discovery",
+    "C": "6 months after the event occurred",
+    "D": "45 business days"
+   },
+   "correct": "D",
+   "explanation_en": "TJC expects the comprehensive systematic analysis (e.g., RCA) and corrective action plan within 45 business days of the event or of becoming aware of it. Immediate patient-safety actions should of course be taken right away.",
+   "explanation_ar": "التحليل وخطة العمل للحدث الجسيم خلال 45 يوم عمل.",
+   "source": "old Q13 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-14",
+   "n": 14,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "recall",
+   "stem": "Which is NOT a characteristic of a well-conducted root cause analysis?",
+   "options": {
+    "A": "It focuses on systems and processes rather than on individual blame",
+    "B": "It aims to find the individual to discipline",
+    "C": "It repeatedly asks 'why'",
+    "D": "It produces corrective actions with measures of their effectiveness"
+   },
+   "correct": "B",
+   "explanation_en": "RCA looks for system-level contributing causes and actionable fixes. Blame-focused reviews suppress reporting and miss latent conditions.",
+   "explanation_ar": "تحليل السبب الجذري يركز على النظام لا على معاقبة الأفراد.",
+   "source": "old Q14 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-15",
+   "n": 15,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "analysis",
+   "stem": "Which causal statement follows recommended RCA rules?",
+   "options": {
+    "A": "The nurse was careless and forgot to pass on the critical lab result during the handoff",
+    "B": "Poor communication between the night and day teams caused the delayed treatment event",
+    "C": "No standard handoff tool made it likely the pending result was missed, delaying treatment",
+    "D": "The physician should have checked the pending lab result before leaving the hospital"
+   },
+   "correct": "C",
+   "explanation_en": "Good causal statements show cause → effect → event, avoid negative descriptors ('careless', 'poor'), and identify a preceding cause for each human error. Blaming individuals is not a causal statement.",
+   "explanation_ar": "بيان السبب الجيد يربط السبب بالأثر بالحدث دون لوم.",
+   "source": "old Q15 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-16",
+   "n": 16,
+   "task": "5F4",
+   "task_name": "Safety and risk management: proactive risk assessment",
+   "cognitive": "application",
+   "stem": "In an FMEA, a failure mode is rated Severity = 8, Occurrence = 3, Detection = 5. What is the Risk Priority Number (RPN)?",
+   "options": {
+    "A": "16 (8 + 3 + 5)",
+    "B": "40 (8 × 5)",
+    "C": "24 (8 × 3)",
+    "D": "120"
+   },
+   "correct": "D",
+   "explanation_en": "RPN = Severity × Occurrence × Detection = 8 × 3 × 5 = 120. (Adding the values gives 16; S×D = 40; S×O = 24.)",
+   "explanation_ar": "رقم أولوية الخطر = الشدة × الحدوث × الاكتشاف = 120.",
+   "source": "old Q16 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-17",
+   "n": 17,
+   "task": "5F4",
+   "task_name": "Safety and risk management: proactive risk assessment",
+   "cognitive": "analysis",
+   "stem": "An FMEA team finds a failure mode with a moderate RPN but a severity score of 10 (catastrophic). What should the team do?",
+   "options": {
+    "A": "Prioritize mitigating it despite its lower RPN",
+    "B": "Ignore it, because only the top-ranked RPN items are addressed in an FMEA",
+    "C": "Lower the severity score so that it is consistent with the calculated RPN",
+    "D": "Wait until it happens, then do an RCA"
+   },
+   "correct": "A",
+   "explanation_en": "RPN ranking can hide catastrophic but rare failures. Best practice is to also address any failure mode with very high severity regardless of RPN.",
+   "explanation_ar": "عالج نمط الفشل شديد الخطورة حتى لو لم يكن رقمه الأعلى.",
+   "source": "old Q17 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-18",
+   "n": 18,
+   "task": "5B",
+   "task_name": "Facilitate the ongoing evaluation of safety activities",
+   "cognitive": "recall",
+   "stem": "Compared with voluntary incident reporting, the IHI Global Trigger Tool typically:",
+   "options": {
+    "A": "Finds many more adverse events via structured chart review",
+    "B": "Finds fewer events because it relies entirely on voluntary staff reports",
+    "C": "It measures safety culture",
+    "D": "Replaces the need for root cause analysis of serious safety events"
+   },
+   "correct": "A",
+   "explanation_en": "Trigger-based chart review detects far more harm than voluntary reports, which capture only a small fraction of events. It measures harm rates; it does not measure culture or replace RCA.",
+   "explanation_ar": "أداة المحفزات العالمية تكشف أحداثاً ضارة أكثر من البلاغات الطوعية.",
+   "source": "old Q18 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-19",
+   "n": 19,
+   "task": "5B",
+   "task_name": "Facilitate the ongoing evaluation of safety activities",
+   "cognitive": "application",
+   "stem": "How should the effectiveness of an RCA action plan BEST be evaluated?",
+   "options": {
+    "A": "Confirm the plan was approved",
+    "B": "Track process and outcome measures until sustained",
+    "C": "Count the number of staff who attended the related training sessions",
+    "D": "Assume the plan succeeded if no complaints are received in six months"
+   },
+   "correct": "B",
+   "explanation_en": "Action-plan effectiveness requires measurable process and outcome indicators with targets and timelines. Approval or attendance shows activity, not effect.",
+   "explanation_ar": "فعالية خطة العمل تُقاس بمؤشرات العملية والنتيجة عبر الزمن.",
+   "source": "old Q19 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-20",
+   "n": 20,
+   "task": "5D",
+   "task_name": "Integrate safety concepts throughout the organization",
+   "cognitive": "application",
+   "stem": "After a patient is harmed by a medical error, what is the recommended approach to communication with the patient and family?",
+   "options": {
+    "A": "Wait until the legal review is fully complete before any discussion",
+    "B": "Disclose only if asked directly",
+    "C": "Prompt, honest disclosure, apology, and follow-up",
+    "D": "Have the involved clinician send a brief written note to the family only"
+   },
+   "correct": "C",
+   "explanation_en": "Communication-and-resolution approaches (e.g., CANDOR) support early, transparent disclosure, empathy/apology, investigation updates, and support for patients and staff. Delay and silence erode trust.",
+   "explanation_ar": "الإفصاح الصادق والسريع مع الاعتذار والمتابعة هو النهج الموصى به.",
+   "source": "old Q20 (reviewed, key verified)"
+  },
+  {
+   "id": "D4-21",
+   "n": 21,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "application",
+   "stem": "CPOE with clinical decision support is MOST likely to prevent which error?",
+   "options": {
+    "A": "Ordering a drug the patient is documented as allergic to",
+    "B": "Dispensing a look-alike vial from the wrong automated cabinet bin",
+    "C": "Programming errors on a smart infusion pump at the bedside",
+    "D": "Giving a correctly ordered medication to the wrong patient at the bedside"
+   },
+   "correct": "A",
+   "explanation_en": "CPOE/CDS targets the prescribing stage with allergy, dose, and interaction checks.",
+   "explanation_ar": "نظام الطلب الإلكتروني مع دعم القرار يمنع أخطاء الوصف مثل الحساسية.",
+   "source": "new"
+  },
+  {
+   "id": "D4-22",
+   "n": 22,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "analysis",
+   "stem": "After BCMA implementation, nurses print extra patient wristbands and tape them to the medication cart to scan. What does this MOST likely indicate?",
+   "options": {
+    "A": "A pharmacy dispensing error",
+    "B": "A training issue only, solved by repeating BCMA education for nurses",
+    "C": "Excellent compliance with BCMA, since every dose is still being scanned",
+    "D": "A workaround signaling a design or workflow problem"
+   },
+   "correct": "D",
+   "explanation_en": "Workarounds defeat the safety technology and point to usability or workflow failures to fix.",
+   "explanation_ar": "الالتفاف على النظام يدل على مشكلة في التصميم يجب دراستها.",
+   "source": "new"
+  },
+  {
+   "id": "D4-23",
+   "n": 23,
+   "task": "5A",
+   "task_name": "Identify technology solutions to enhance patient safety",
+   "cognitive": "application",
+   "stem": "Before implementing a new EHR alert for sepsis, what should the safety team do to reduce unintended consequences?",
+   "options": {
+    "A": "Turn it on hospital-wide immediately so no septic patient is missed",
+    "B": "Make it a hard stop for all patients",
+    "C": "Test with users and monitor false positives after go-live",
+    "D": "Hide it from nurses so that only physicians receive the sepsis alert"
+   },
+   "correct": "C",
+   "explanation_en": "Technology introduces new risks; usability testing and post-implementation monitoring reduce them.",
+   "explanation_ar": "اختبر التنبيه مع المستخدمين وراقب الإنذارات الكاذبة بعد التشغيل.",
+   "source": "new"
+  },
+  {
+   "id": "D4-24",
+   "n": 24,
+   "task": "5B",
+   "task_name": "Facilitate the ongoing evaluation of safety activities",
+   "cognitive": "analysis",
+   "stem": "Fall-prevention compliance audits show 95% bundle use, yet the fall-with-injury rate has not changed in a year. What is the BEST next step?",
+   "options": {
+    "A": "Increase the frequency of compliance audits without other changes",
+    "B": "Declare the program successful because bundle compliance is 95%",
+    "C": "Stop measuring falls because the bundle is already being followed",
+    "D": "Check whether the bundle targets the real causes and audits are valid"
+   },
+   "correct": "D",
+   "explanation_en": "When process measures look good but outcomes do not move, check the measure validity and the theory of change.",
+   "explanation_ar": "إذا لم تتحسن النتيجة رغم الالتزام، راجع صحة القياس وملاءمة الإجراءات.",
+   "source": "new"
+  },
+  {
+   "id": "D4-25",
+   "n": 25,
+   "task": "5B",
+   "task_name": "Facilitate the ongoing evaluation of safety activities",
+   "cognitive": "application",
+   "stem": "Which measure BEST evaluates the effectiveness of a new hand-off tool implemented to reduce communication errors?",
+   "options": {
+    "A": "Number of tool copies printed",
+    "B": "Handoff-related events and near misses before and after",
+    "C": "Hours of training delivered on the new handoff tool this quarter",
+    "D": "Number of staff who signed the new handoff policy acknowledgment"
+   },
+   "correct": "B",
+   "explanation_en": "Effectiveness is shown by outcome and process change, not activities.",
+   "explanation_ar": "قِس الأحداث المرتبطة بالتسليم قبل وبعد التطبيق.",
+   "source": "new"
+  },
+  {
+   "id": "D4-26",
+   "n": 26,
+   "task": "5B",
+   "task_name": "Facilitate the ongoing evaluation of safety activities",
+   "cognitive": "recall",
+   "stem": "Which is a balancing measure for a project to reduce ICU length of stay?",
+   "options": {
+    "A": "ICU length of stay",
+    "B": "Number of ICU beds",
+    "C": "ICU readmission within 48 hours",
+    "D": "Nurse satisfaction survey response rate"
+   },
+   "correct": "C",
+   "explanation_en": "Balancing measures detect unintended harm elsewhere, such as early discharge leading to readmission.",
+   "explanation_ar": "مقياس التوازن يكشف الأثر غير المقصود مثل إعادة الدخول للعناية.",
+   "source": "new"
+  },
+  {
+   "id": "D4-27",
+   "n": 27,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "application",
+   "stem": "A nurse knowingly turned off a bed alarm for a high-fall-risk patient to avoid noise, despite clear policy and knowing the risk, while staffing was adequate. Under Just Culture, the behavior is BEST classified as:",
+   "options": {
+    "A": "Human error, warranting consoling and a review of the system design",
+    "B": "No issue at all, because the patient did not fall during that shift",
+    "C": "At-risk behavior, warranting coaching only",
+    "D": "Reckless behavior, warranting remedial or disciplinary action"
+   },
+   "correct": "D",
+   "explanation_en": "Conscious disregard of a substantial and unjustifiable risk is reckless; the response targets the choice, not the outcome.",
+   "explanation_ar": "التجاهل الواعي لخطر كبير سلوك متهور يستوجب إجراءً تأديبياً.",
+   "source": "new"
+  },
+  {
+   "id": "D4-28",
+   "n": 28,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "analysis",
+   "stem": "A unit has high safety-culture scores for teamwork but low scores for 'communication openness.' Which intervention is MOST targeted?",
+   "options": {
+    "A": "Increase disciplinary audits so that staff follow communication rules",
+    "B": "Reduce unit huddles to save time",
+    "C": "Add more equipment and supplies to reduce frustration on the unit",
+    "D": "Coach speaking-up tools (CUS) and have leaders welcome concerns"
+   },
+   "correct": "D",
+   "explanation_en": "Speaking-up skills plus leader responsiveness build psychological safety and communication openness.",
+   "explanation_ar": "تدريب أدوات التحدث بصراحة واستجابة القادة يعزز الانفتاح.",
+   "source": "new"
+  },
+  {
+   "id": "D4-29",
+   "n": 29,
+   "task": "5C",
+   "task_name": "Apply techniques to enhance the culture of safety within the organization",
+   "cognitive": "application",
+   "stem": "Which leadership behavior MOST strengthens psychological safety on a unit?",
+   "options": {
+    "A": "Posting names of staff involved in errors so others can learn from them",
+    "B": "Thanking reporters and sharing what changed",
+    "C": "Reviewing reports once a year",
+    "D": "Rewarding the units that submit the fewest incident reports each quarter"
+   },
+   "correct": "B",
+   "explanation_en": "Feedback and appreciation for reporting reinforce a learning culture.",
+   "explanation_ar": "شكر المبلّغين وإطلاعهم على التغييرات يعزز الأمان النفسي.",
+   "source": "new"
+  },
+  {
+   "id": "D4-30",
+   "n": 30,
+   "task": "5D",
+   "task_name": "Integrate safety concepts throughout the organization",
+   "cognitive": "application",
+   "stem": "A board wants to make patient safety a strategic priority. Which action BEST integrates safety at the governance level?",
+   "options": {
+    "A": "Discuss patient safety at the board only after a sentinel event occurs",
+    "B": "Make safety event rates and action status standing board items",
+    "C": "Report only malpractice claims and their financial impact to the board",
+    "D": "Delegate oversight to the risk manager"
+   },
+   "correct": "B",
+   "explanation_en": "Integration means safety measures and accountability are routinely reviewed at the highest level.",
+   "explanation_ar": "إدراج مؤشرات السلامة كبند ثابت في اجتماعات المجلس يدمجها استراتيجياً.",
+   "source": "new"
+  },
+  {
+   "id": "D4-31",
+   "n": 31,
+   "task": "5D",
+   "task_name": "Integrate safety concepts throughout the organization",
+   "cognitive": "application",
+   "stem": "A nurse involved in a fatal medication error shows signs of distress. What is the BEST organizational response?",
+   "options": {
+    "A": "Suspend the nurse immediately",
+    "B": "Offer second-victim peer support and EAP services",
+    "C": "Tell the nurse to keep working normally without any discussion of the event",
+    "D": "Exclude the nurse from the event review to avoid further distress"
+   },
+   "correct": "B",
+   "explanation_en": "Supporting clinicians after harmful events is part of a mature safety program.",
+   "explanation_ar": "دعم الضحية الثانية من الزملاء والبرامج المساندة جزء من ثقافة السلامة.",
+   "source": "new"
+  },
+  {
+   "id": "D4-32",
+   "n": 32,
+   "task": "5D",
+   "task_name": "Integrate safety concepts throughout the organization",
+   "cognitive": "analysis",
+   "stem": "A hospital has a patient-family advisory council but it only reviews brochures. What change BEST integrates patients into safety?",
+   "options": {
+    "A": "Invite the advisors only to annual recognition and celebration events",
+    "B": "Put patient advisors on safety committees and redesign teams",
+    "C": "Disband the council",
+    "D": "Limit the advisors to reviewing signage, brochures, and website text"
+   },
+   "correct": "B",
+   "explanation_en": "Meaningful partnership places patients in safety design and review, not just cosmetic tasks.",
+   "explanation_ar": "إشراك المرضى في لجان السلامة وإعادة تصميم العمليات عالية الخطورة.",
+   "source": "new"
+  },
+  {
+   "id": "D4-33",
+   "n": 33,
+   "task": "5D",
+   "task_name": "Integrate safety concepts throughout the organization",
+   "cognitive": "recall",
+   "stem": "CANDOR and other communication-and-resolution programs emphasize what after patient harm?",
+   "options": {
+    "A": "Shifting responsibility for the outcome to the patient and family",
+    "B": "Admitting fault only in writing after the legal team has reviewed it",
+    "C": "Avoiding contact until litigation ends",
+    "D": "Early disclosure, apology, investigation, and fair resolution"
+   },
+   "correct": "D",
+   "explanation_en": "Communication-and-resolution programs promote transparency and learning after harm.",
+   "explanation_ar": "برامج CANDOR تعزز الإفصاح المبكر والاعتذار والحل العادل.",
+   "source": "new"
+  },
+  {
+   "id": "D4-34",
+   "n": 34,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "application",
+   "stem": "Look-alike vials of two high-alert drugs are stored side by side in an automated dispensing cabinet. Which human-factors fix is STRONGEST?",
+   "options": {
+    "A": "Separate storage plus tall-man lettering and distinct packaging",
+    "B": "Post a warning memo about the look-alike vials on the cabinet",
+    "C": "Add an annual competency on high-alert medications for all nurses",
+    "D": "Tell nurses to read every label carefully before removing a vial"
+   },
+   "correct": "A",
+   "explanation_en": "Design changes that reduce reliance on vigilance are stronger than reminders.",
+   "explanation_ar": "فصل التخزين وتمييز العبوات أقوى من التذكير بالانتباه.",
+   "source": "new"
+  },
+  {
+   "id": "D4-35",
+   "n": 35,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "recall",
+   "stem": "Which high-reliability principle describes treating small failures as early warnings of larger system problems?",
+   "options": {
+    "A": "Sensitivity to front-line operations",
+    "B": "Deference to expertise over rank",
+    "C": "Commitment to resilience after errors",
+    "D": "Preoccupation with failure"
+   },
+   "correct": "D",
+   "explanation_en": "HROs pay attention to near misses and weak signals as symptoms of system vulnerability.",
+   "explanation_ar": "الانشغال بالفشل يعني اعتبار الأخطاء الصغيرة إنذاراً مبكراً.",
+   "source": "new"
+  },
+  {
+   "id": "D4-36",
+   "n": 36,
+   "task": "5E",
+   "task_name": "Use safety principles (human factors, high reliability, high-performance teams, systems thinking)",
+   "cognitive": "application",
+   "stem": "A resident twice raises concern about a patient's unsafe discharge and is ignored. Under the TeamSTEPPS two-challenge rule, what should the resident do NEXT?",
+   "options": {
+    "A": "Discharge the patient as the attending physician ordered",
+    "B": "Escalate up the chain of command",
+    "C": "Accept the decision, since the concern was voiced twice already",
+    "D": "Document the concern silently in the chart and take no other action"
+   },
+   "correct": "B",
+   "explanation_en": "After two unaddressed challenges, the concern is escalated up the chain of command.",
+   "explanation_ar": "بعد تحدّيين دون استجابة يُصعّد الأمر لمستوى أعلى.",
+   "source": "new"
+  },
+  {
+   "id": "D4-37",
+   "n": 37,
+   "task": "5F1",
+   "task_name": "Safety and risk management: safety event/incident reporting",
+   "cognitive": "application",
+   "stem": "A patient receives a double dose of a vitamin supplement and has no harm. How should the event be classified?",
+   "options": {
+    "A": "No-harm event",
+    "B": "Adverse event with harm to the patient",
+    "C": "Sentinel event requiring a comprehensive review",
+    "D": "Near miss, because the dose was only a vitamin supplement"
+   },
+   "correct": "A",
+   "explanation_en": "The error reached the patient but caused no harm, so it is a no-harm event.",
+   "explanation_ar": "الخطأ وصل للمريض دون ضرر فهو حدث بلا ضرر.",
+   "source": "new"
+  },
+  {
+   "id": "D4-38",
+   "n": 38,
+   "task": "5F1",
+   "task_name": "Safety and risk management: safety event/incident reporting",
+   "cognitive": "analysis",
+   "stem": "After introducing an easy one-click reporting form and feedback emails, near-miss reports doubled while harm events fell slightly. How should leaders interpret this?",
+   "options": {
+    "A": "Staff are making more errors",
+    "B": "A healthier reporting culture with more to learn from",
+    "C": "The new form should be removed because it inflates report numbers",
+    "D": "Safety has worsened, so leaders should audit the units involved"
+   },
+   "correct": "B",
+   "explanation_en": "Increased near-miss reporting reflects trust and visibility of risk, not more errors.",
+   "explanation_ar": "زيادة بلاغات الأحداث الوشيكة تعكس ثقافة إبلاغ أفضل.",
+   "source": "new"
+  },
+  {
+   "id": "D4-39",
+   "n": 39,
+   "task": "5F1",
+   "task_name": "Safety and risk management: safety event/incident reporting",
+   "cognitive": "recall",
+   "stem": "Which feature MOST encourages staff to use an incident reporting system?",
+   "options": {
+    "A": "Timely feedback on what was learned and changed",
+    "B": "Lengthy multi-page forms that capture every possible detail",
+    "C": "Naming the person at fault",
+    "D": "Reports reviewed only by Human Resources for follow-up"
+   },
+   "correct": "A",
+   "explanation_en": "Feedback closes the loop and shows that reporting leads to improvement.",
+   "explanation_ar": "التغذية الراجعة عن التغييرات الناتجة تشجع الإبلاغ.",
+   "source": "new"
+  },
+  {
+   "id": "D4-40",
+   "n": 40,
+   "task": "5F2",
+   "task_name": "Safety and risk management: sentinel/unexpected event review",
+   "cognitive": "application",
+   "stem": "A patient dies unexpectedly after a wrong-dose insulin infusion. What should be done FIRST?",
+   "options": {
+    "A": "Care for patient/family, secure the pump and drug, prevent recurrence",
+    "B": "Start the formal RCA meeting within the hour with everyone involved",
+    "C": "Discipline the nurse who programmed the pump before anything else",
+    "D": "Wait 45 business days, then take action once the RCA is complete"
+   },
+   "correct": "A",
+   "explanation_en": "Immediate actions protect patients and preserve evidence; formal analysis follows.",
+   "explanation_ar": "أولاً رعاية المريض والأسرة وحفظ الأدلة ومنع التكرار الفوري.",
+   "source": "new"
+  },
+  {
+   "id": "D4-41",
+   "n": 41,
+   "task": "5F2",
+   "task_name": "Safety and risk management: sentinel/unexpected event review",
+   "cognitive": "recall",
+   "stem": "Which team composition is MOST appropriate for a sentinel event review?",
+   "options": {
+    "A": "Only the hospital attorney, to protect the organization from liability",
+    "B": "An interdisciplinary team with front-line staff and neutral facilitation",
+    "C": "Only the risk manager, who is trained in event investigation methods",
+    "D": "Only the staff directly involved, since they know exactly what happened"
+   },
+   "correct": "B",
+   "explanation_en": "Effective reviews include those who know the process plus leaders and neutral facilitation.",
+   "explanation_ar": "فريق متعدد التخصصات يضم العاملين في العملية ودعم القيادة.",
+   "source": "new"
+  },
+  {
+   "id": "D4-42",
+   "n": 42,
+   "task": "5F2",
+   "task_name": "Safety and risk management: sentinel/unexpected event review",
+   "cognitive": "application",
+   "stem": "After a sentinel event review is complete, how should findings be shared?",
+   "options": {
+    "A": "Keep the findings within the review team only to protect privilege",
+    "B": "Share the findings only with the patient's insurer and legal counsel",
+    "C": "Publish the names of the staff involved so others understand the event",
+    "D": "Share lessons and system changes widely while protecting confidentiality"
+   },
+   "correct": "D",
+   "explanation_en": "Organization-wide learning prevents recurrence elsewhere.",
+   "explanation_ar": "شارك الدروس المستفادة مع الوحدات المعنية مع حماية السرية.",
+   "source": "new"
+  },
+  {
+   "id": "D4-43",
+   "n": 43,
+   "task": "5F2",
+   "task_name": "Safety and risk management: sentinel/unexpected event review",
+   "cognitive": "analysis",
+   "stem": "A hospital's sentinel event action plans are completed on time, but similar events recur in other units. What is the MOST likely gap?",
+   "options": {
+    "A": "Weak, local actions with no spread or monitoring",
+    "B": "The 45-day deadline is too long",
+    "C": "Staff are reporting too many events for the team to analyze",
+    "D": "The events are random and cannot be prevented by any action"
+   },
+   "correct": "A",
+   "explanation_en": "Recurrence suggests weak, unit-limited actions and lack of spread and measurement.",
+   "explanation_ar": "تكرار الأحداث يدل على إجراءات ضعيفة ومحلية دون تعميم أو قياس.",
+   "source": "new"
+  },
+  {
+   "id": "D4-44",
+   "n": 44,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "application",
+   "stem": "An RCA team asks 'why' repeatedly: The wrong dose was given → the label was misread → the font was tiny → the vendor changed the label → no process existed to review new labels. Which is the root cause?",
+   "options": {
+    "A": "The vendor's font was too small to read safely",
+    "B": "The nurse misread the label during a busy medication pass",
+    "C": "No process to review new product labels before use",
+    "D": "The wrong dose was given to the patient at the bedside"
+   },
+   "correct": "C",
+   "explanation_en": "The root cause is the deepest controllable system cause; fixing it prevents recurrence.",
+   "explanation_ar": "السبب الجذري هو غياب عملية لمراجعة الملصقات الجديدة.",
+   "source": "new"
+  },
+  {
+   "id": "D4-45",
+   "n": 45,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "recall",
+   "stem": "Which RCA tool organizes contributing factors into categories such as people, equipment, environment, and procedures?",
+   "options": {
+    "A": "Run chart of events over time",
+    "B": "Gantt chart of RCA action items",
+    "C": "Fishbone (cause-and-effect) diagram",
+    "D": "Histogram of event frequency by unit"
+   },
+   "correct": "C",
+   "explanation_en": "The fishbone diagram structures potential causes by category during RCA.",
+   "explanation_ar": "مخطط عظم السمكة ينظم العوامل المساهمة في فئات.",
+   "source": "new"
+  },
+  {
+   "id": "D4-46",
+   "n": 46,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "analysis",
+   "stem": "An RCA's action plan contains: 'retrain staff,' 'update policy,' and 'add a warning sign.' What is the BEST critique?",
+   "options": {
+    "A": "Remove the warning sign, since signs are ignored by busy staff anyway",
+    "B": "The plan is strong and complete because it addresses staff and policy",
+    "C": "All are weak; add system-level actions such as forcing functions",
+    "D": "Add disciplinary action for the staff involved to strengthen the plan"
+   },
+   "correct": "C",
+   "explanation_en": "Strong RCA actions change the system rather than relying on memory and vigilance.",
+   "explanation_ar": "جميع الإجراءات ضعيفة؛ أضف إجراءات نظامية أقوى.",
+   "source": "new"
+  },
+  {
+   "id": "D4-47",
+   "n": 47,
+   "task": "5F3",
+   "task_name": "Safety and risk management: root cause analysis",
+   "cognitive": "application",
+   "stem": "What should every RCA corrective action include to show effectiveness?",
+   "options": {
+    "A": "Names of the staff involved",
+    "B": "Formal written approval of the actions from the patient's family",
+    "C": "An owner, a due date, and a measurable indicator",
+    "D": "A legal disclaimer protecting the hospital from future liability"
+   },
+   "correct": "C",
+   "explanation_en": "Accountability and measurement verify that actions were implemented and worked.",
+   "explanation_ar": "كل إجراء يحتاج مالكاً وتاريخاً ومؤشراً قابلاً للقياس.",
+   "source": "new"
+  },
+  {
+   "id": "D4-48",
+   "n": 48,
+   "task": "5F4",
+   "task_name": "Safety and risk management: proactive risk assessment",
+   "cognitive": "recall",
+   "stem": "Which statement BEST distinguishes FMEA from RCA?",
+   "options": {
+    "A": "They are the same tool, used by different departments under different names",
+    "B": "FMEA is used only after sentinel events; RCA is used for near misses",
+    "C": "FMEA is proactive (before failure); RCA is reactive (after an event)",
+    "D": "RCA is used to predict future failures before new processes go live"
+   },
+   "correct": "C",
+   "explanation_en": "FMEA looks forward at what could fail; RCA looks back at what did fail.",
+   "explanation_ar": "FMEA استباقي قبل وقوع الخطأ وRCA تفاعلي بعده.",
+   "source": "new"
+  },
+  {
+   "id": "D4-49",
+   "n": 49,
+   "task": "5F4",
+   "task_name": "Safety and risk management: proactive risk assessment",
+   "cognitive": "application",
+   "stem": "A hospital plans to open a new hybrid operating room. Which risk assessment is MOST appropriate before opening?",
+   "options": {
+    "A": "Retrospective chart review of past OR cases",
+    "B": "Root cause analysis of previous OR events",
+    "C": "Healthcare FMEA of the new processes",
+    "D": "Patient satisfaction survey after opening"
+   },
+   "correct": "C",
+   "explanation_en": "Proactive risk assessment of new or redesigned processes is done before patients are exposed.",
+   "explanation_ar": "قبل افتتاح خدمة جديدة يُجرى تحليل FMEA استباقي.",
+   "source": "new"
+  },
+  {
+   "id": "D4-50",
+   "n": 50,
+   "task": "5F4",
+   "task_name": "Safety and risk management: proactive risk assessment",
+   "cognitive": "analysis",
+   "stem": "In an FMEA, failure mode X has S=4, O=9, D=2 and failure mode Y has S=9, O=2, D=4. Both have RPN 72. Which should generally be addressed FIRST?",
+   "options": {
+    "A": "Both are equal, so the team can choose either one at random",
+    "B": "Neither, because both RPNs are below a threshold of 100",
+    "C": "X, because its occurrence score is higher than Y's occurrence",
+    "D": "Y, because its severity is much higher"
+   },
+   "correct": "D",
+   "explanation_en": "With equal RPN, the failure mode with higher severity typically takes priority.",
+   "explanation_ar": "عند تساوي الرقم تُقدَّم الحالة الأشد خطورة.",
+   "source": "new"
+  }
+ ]
+}

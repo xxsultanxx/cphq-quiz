@@ -1,0 +1,909 @@
+{
+ "domain": 7,
+ "title": "Population Health & Care Transitions",
+ "nahq_domain": "3",
+ "outline": "NAHQ CPHQ Detailed Content Outline (2024 R2b, in 2026 handbook)",
+ "count": 50,
+ "questions": [
+  {
+   "id": "D7-01",
+   "n": 1,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "recall",
+   "stem": "Which is an example of a social determinant of health (SDOH)?",
+   "options": {
+    "A": "A hereditary BRCA1 gene mutation in the family",
+    "B": "A prescribed beta-blocker dose after discharge",
+    "C": "A hospital's nurse-to-patient staffing ratio",
+    "D": "Lack of transportation to appointments"
+   },
+   "correct": "D",
+   "explanation_en": "SDOH = conditions where people are born, live, learn, work, and age: economic stability, education, neighborhood, social context, and access to care.",
+   "explanation_ar": "نقص وسائل النقل من المحددات الاجتماعية للصحة.",
+   "source": "old Q1 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-02",
+   "n": 2,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "Which statement BEST describes health EQUITY rather than equality?",
+   "options": {
+    "A": "Giving every patient exactly the same resources and services",
+    "B": "Treating only insured patients",
+    "C": "Removing demographic fields from quality reports to be fair",
+    "D": "Resources allocated by need so all can reach full health"
+   },
+   "correct": "D",
+   "explanation_en": "Equality = same for all; equity = fair, need-based. Removing demographic data hides disparities instead of addressing them.",
+   "explanation_ar": "الإنصاف توزيع الموارد حسب الحاجة ليصل الجميع لأفضل صحة.",
+   "source": "old Q2 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-03",
+   "n": 3,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "application",
+   "stem": "A hospital wants to know whether its readmission rate differs across patient groups. What is the BEST first analytic step?",
+   "options": {
+    "A": "Report only the overall readmission average to avoid confusion",
+    "B": "Stratify readmissions by race, ethnicity, language, and social risk",
+    "C": "Compare this year's rate with last year's hospital-wide total only",
+    "D": "Exclude patients with limited English proficiency from the measure"
+   },
+   "correct": "B",
+   "explanation_en": "Stratification reveals disparities hidden inside aggregate rates and requires accurate REaL (race, ethnicity, language) data collection.",
+   "explanation_ar": "تقسيم المؤشر حسب العرق واللغة والعوامل الاجتماعية يكشف الفوارق.",
+   "source": "old Q3 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-04",
+   "n": 4,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "A mammography screening program to detect breast cancer early is which level of prevention?",
+   "options": {
+    "A": "Quaternary prevention",
+    "B": "Primary prevention",
+    "C": "Secondary prevention",
+    "D": "Tertiary prevention"
+   },
+   "correct": "C",
+   "explanation_en": "Primary = prevent the disease (e.g., vaccines). Secondary = early detection (screening). Tertiary = reduce complications of existing disease (e.g., cardiac rehab).",
+   "explanation_ar": "فحص الماموجرام للكشف المبكر وقاية ثانوية.",
+   "source": "old Q4 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-05",
+   "n": 5,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "A cardiac rehabilitation program after myocardial infarction is which level of prevention?",
+   "options": {
+    "A": "Primary prevention",
+    "B": "Secondary prevention",
+    "C": "Tertiary prevention",
+    "D": "Health promotion only"
+   },
+   "correct": "C",
+   "explanation_en": "Tertiary prevention limits disability and complications in people who already have the disease.",
+   "explanation_ar": "التأهيل القلبي بعد الجلطة وقاية ثالثية.",
+   "source": "old Q5 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-06",
+   "n": 6,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "A health system uses claims, diagnoses, and utilization data to identify the patients most likely to need intensive care management. What is this process called?",
+   "options": {
+    "A": "Utilization review",
+    "B": "Risk stratification",
+    "C": "Case-mix index reporting",
+    "D": "Credentialing"
+   },
+   "correct": "B",
+   "explanation_en": "Risk stratification segments a population by predicted need so interventions can be matched to risk levels (high / rising / low).",
+   "explanation_ar": "تصنيف المرضى حسب المخاطر يحدد من يحتاج إدارة حالة مكثفة.",
+   "source": "old Q6 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-07",
+   "n": 7,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "recall",
+   "stem": "U.S. nonprofit hospitals must periodically assess and prioritize the health needs of the community they serve. What is this assessment?",
+   "options": {
+    "A": "Root cause analysis of community events",
+    "B": "Patient experience survey of discharged patients",
+    "C": "Failure mode and effects analysis of services",
+    "D": "Community Health Needs Assessment"
+   },
+   "correct": "D",
+   "explanation_en": "A CHNA (required by the ACA every 3 years, with an implementation strategy) uses community data and input to define population health priorities.",
+   "explanation_ar": "تقييم احتياجات صحة المجتمع CHNA مطلوب دورياً من المستشفيات غير الربحية.",
+   "source": "old Q7 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-08",
+   "n": 8,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "recall",
+   "stem": "The number of NEW diabetes cases diagnosed in a defined population during one year is which measure?",
+   "options": {
+    "A": "Incidence",
+    "B": "Case-fatality rate",
+    "C": "Mortality rate",
+    "D": "Prevalence"
+   },
+   "correct": "A",
+   "explanation_en": "Incidence = new cases over a period (risk). Prevalence = all existing cases at a point or period (burden).",
+   "explanation_ar": "الحالات الجديدة خلال فترة تُسمى معدل الحدوث (Incidence).",
+   "source": "old Q8 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-09",
+   "n": 9,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "application",
+   "stem": "Which care-transition practice MOST directly reduces medication-related adverse events after discharge?",
+   "options": {
+    "A": "Shortening the discharge summary so that it is easier to read",
+    "B": "Discharging patients earlier in the day to reduce evening errors",
+    "C": "Providing a printed hospital map and parking guide at discharge",
+    "D": "Medication reconciliation across admission, stay, and discharge"
+   },
+   "correct": "D",
+   "explanation_en": "Med reconciliation at each transition catches omissions, duplications, and dosing errors, a leading cause of post-discharge harm.",
+   "explanation_ar": "مطابقة الأدوية عند الانتقال تقلل الأحداث الدوائية بعد الخروج.",
+   "source": "old Q9 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-10",
+   "n": 10,
+   "task": "3G",
+   "task_name": "Collaborate with stakeholders to improve and optimize care processes and transitions",
+   "cognitive": "recall",
+   "stem": "A nurse asks the patient to explain in his own words how he will take his new anticoagulant. What technique is this?",
+   "options": {
+    "A": "Informed consent",
+    "B": "Teach-back",
+    "C": "SBAR",
+    "D": "Motivational interviewing"
+   },
+   "correct": "B",
+   "explanation_en": "Teach-back confirms understanding. It tests the clarity of the TEACHING, not the patient's intelligence.",
+   "explanation_ar": "طريقة إعادة الشرح (Teach-back) تتأكد من فهم المريض.",
+   "source": "old Q10 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-11",
+   "n": 11,
+   "task": "3G",
+   "task_name": "Collaborate with stakeholders to improve and optimize care processes and transitions",
+   "cognitive": "recall",
+   "stem": "Taking a 'universal precautions' approach to health literacy means which of the following?",
+   "options": {
+    "A": "Communicate clearly with everyone, assuming anyone may struggle",
+    "B": "Use precise medical terminology with all patients for accuracy",
+    "C": "Give written materials only, so patients can read them at home",
+    "D": "Screen only elderly patients for low health literacy at admission"
+   },
+   "correct": "A",
+   "explanation_en": "Literacy limitations are often invisible, so use plain language, teach-back, and simple materials for all patients.",
+   "explanation_ar": "افترض أن أي مريض قد يجد صعوبة في الفهم وتواصل بوضوح مع الجميع.",
+   "source": "old Q11 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-12",
+   "n": 12,
+   "task": "3G",
+   "task_name": "Collaborate with stakeholders to improve and optimize care processes and transitions",
+   "cognitive": "application",
+   "stem": "Which tool provides a standardized structure for a nurse-to-nurse handoff when a patient moves from hospital to a skilled nursing facility?",
+   "options": {
+    "A": "Gantt chart of the transfer",
+    "B": "Pareto chart of handoff errors",
+    "C": "SBAR",
+    "D": "Fishbone diagram of transfer delays"
+   },
+   "correct": "C",
+   "explanation_en": "Structured handoff tools (SBAR, I-PASS) reduce omissions during transitions. The other options are QI analysis or project tools.",
+   "explanation_ar": "أداة SBAR توحّد هيكل التسليم بين الجهات.",
+   "source": "old Q12 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-13",
+   "n": 13,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "analysis",
+   "stem": "A readmission review shows many patients never attended a follow-up visit. Which intervention MOST directly targets this cause?",
+   "options": {
+    "A": "Give a satisfaction survey",
+    "B": "Book follow-up before discharge and confirm access",
+    "C": "Add a new discharge-summary template for the primary care team",
+    "D": "Increase inpatient length of stay for all patients by one day"
+   },
+   "correct": "B",
+   "explanation_en": "Match the intervention to the root cause. A pre-booked appointment plus a check on access barriers (e.g., transportation) closes the gap.",
+   "explanation_ar": "حجز موعد المتابعة قبل الخروج والتأكد من إمكانية الوصول يعالج السبب.",
+   "source": "old Q13 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-14",
+   "n": 14,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "application",
+   "stem": "A diabetic patient is readmitted because she could not afford her insulin. What is the BEST quality response?",
+   "options": {
+    "A": "Re-educate her on insulin injection technique only before discharge",
+    "B": "Screen for cost barriers and link to financial or pharmacy help",
+    "C": "Document noncompliance in the chart and close the readmission case",
+    "D": "Switch to a pricier insulin"
+   },
+   "correct": "B",
+   "explanation_en": "This is an SDOH (economic stability) cause, so screen and refer. Labeling a patient 'noncompliant' ignores the system and social barrier.",
+   "explanation_ar": "افحص عوائق التكلفة قبل الخروج واربط المريض بالمساعدة.",
+   "source": "old Q14 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-15",
+   "n": 15,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "Which care model provides team-based, comprehensive primary care that coordinates the patient's care across settings?",
+   "options": {
+    "A": "Patient-Centered Medical Home",
+    "B": "Ambulatory surgery center network",
+    "C": "Hospital-at-home acute care program only",
+    "D": "Utilization review committee for admissions"
+   },
+   "correct": "A",
+   "explanation_en": "The PCMH emphasizes a continuous relationship, a team-based approach, coordination, access, and quality and safety.",
+   "explanation_ar": "البيت الطبي المتمحور حول المريض PCMH رعاية أولية شاملة بفريق.",
+   "source": "old Q15 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-16",
+   "n": 16,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "A group of providers shares accountability, and potential shared savings, for the cost and quality of care for a defined population. What is this arrangement?",
+   "options": {
+    "A": "Peer review organization for physicians",
+    "B": "Group purchasing organization for supplies",
+    "C": "Fee-for-service preferred provider network",
+    "D": "Accountable Care Organization"
+   },
+   "correct": "D",
+   "explanation_en": "ACOs are a value-based model that links payment to population quality and total cost of care.",
+   "explanation_ar": "منظمة الرعاية المسؤولة ACO تتشارك المسؤولية عن التكلفة والجودة.",
+   "source": "old Q16 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-17",
+   "n": 17,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "application",
+   "stem": "Which is an OUTCOME measure for a diabetes disease-management program?",
+   "options": {
+    "A": "% of patients with a foot exam",
+    "B": "Number of certified diabetes educators hired by the program",
+    "C": "% of enrolled patients with HbA1c at target",
+    "D": "Percentage of enrolled patients referred to a registered dietitian"
+   },
+   "correct": "C",
+   "explanation_en": "HbA1c control is the clinical result (outcome). Exams and referrals are processes; staffing is structure. Domain 6 S-P-O logic applies here too.",
+   "explanation_ar": "نسبة المرضى الذين وصل HbA1c لديهم للهدف مقياس نتيجة.",
+   "source": "old Q17 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-18",
+   "n": 18,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "application",
+   "stem": "SDOH screening finds high food insecurity among clinic patients. Which action BEST integrates SDOH into improvement work?",
+   "options": {
+    "A": "Closed-loop referrals to food banks with tracked outcomes",
+    "B": "Document the food insecurity in the chart but take no further action",
+    "C": "Exclude them from quality measures",
+    "D": "Refer patients to a food bank list without any follow-up or tracking"
+   },
+   "correct": "A",
+   "explanation_en": "Effective SDOH work = screen, refer, close the loop, and measure, often through community partnerships.",
+   "explanation_ar": "الشراكة مع المنظمات المجتمعية بإحالة مغلقة الحلقة وقياس النتائج.",
+   "source": "old Q18 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-19",
+   "n": 19,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "recall",
+   "stem": "Which ICD-10-CM code category is used to document social determinants of health?",
+   "options": {
+    "A": "DRG weights",
+    "B": "CPT Category II codes",
+    "C": "Z codes (Z55-Z65)",
+    "D": "E codes for endocrine disorders"
+   },
+   "correct": "C",
+   "explanation_en": "Z55-Z65 capture factors such as housing, food, education, and employment problems. These data make SDOH measurable.",
+   "explanation_ar": "رموز Z55-Z65 توثق المحددات الاجتماعية للصحة.",
+   "source": "old Q19 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-20",
+   "n": 20,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "recall",
+   "stem": "A program assigns a trained coach who meets the patient before discharge and follows up at home to build self-management skills (medications, red flags, follow-up). What is this intervention?",
+   "options": {
+    "A": "Transition coaching",
+    "B": "Concurrent coding review",
+    "C": "Utilization review at discharge",
+    "D": "Prior authorization for home services"
+   },
+   "correct": "A",
+   "explanation_en": "Transition coaching models empower patients and caregivers to manage the handoff home and have been associated with lower readmissions.",
+   "explanation_ar": "التدريب على الانتقال يبني مهارات الإدارة الذاتية بعد الخروج.",
+   "source": "old Q20 (reviewed, key verified)"
+  },
+  {
+   "id": "D7-21",
+   "n": 21,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "application",
+   "stem": "A town of 50,000 has 2,500 people living with diabetes on 1 January. What is the diabetes prevalence?",
+   "options": {
+    "A": "5%",
+    "B": "0.5%",
+    "C": "50%",
+    "D": "2.5%"
+   },
+   "correct": "A",
+   "explanation_en": "Prevalence = existing cases / population = 2,500 / 50,000 = 5%.",
+   "explanation_ar": "معدل الانتشار = 2500 ÷ 50000 = 5%.",
+   "source": "new"
+  },
+  {
+   "id": "D7-22",
+   "n": 22,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "analysis",
+   "stem": "County A has a higher crude mortality rate than County B, but County A has a much older population. What is needed for a fair comparison?",
+   "options": {
+    "A": "Comparing the total number of deaths",
+    "B": "Excluding elderly residents from both counties",
+    "C": "Crude mortality rates for each county only",
+    "D": "Age-adjusted mortality rates"
+   },
+   "correct": "D",
+   "explanation_en": "Age adjustment removes differences due to age structure.",
+   "explanation_ar": "يجب استخدام معدلات معدّلة حسب العمر للمقارنة العادلة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-23",
+   "n": 23,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "application",
+   "stem": "A health system wants to understand the health status of its attributed population. Which combination of data is MOST useful?",
+   "options": {
+    "A": "Only the inpatient census and bed occupancy data",
+    "B": "Claims, EHR, registry, and community health data",
+    "C": "Only the system's audited annual financial statements",
+    "D": "Only staff surveys about community health concerns"
+   },
+   "correct": "B",
+   "explanation_en": "Population health assessment combines clinical, utilization, and community data.",
+   "explanation_ar": "دمج بيانات المطالبات والسجلات والسجلات الوطنية والصحة العامة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-24",
+   "n": 24,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "recall",
+   "stem": "Which measure describes the proportion of people who die from a disease among those who have it?",
+   "options": {
+    "A": "Prevalence of the disease",
+    "B": "Crude death rate of the population",
+    "C": "Incidence of new disease cases",
+    "D": "Case-fatality rate"
+   },
+   "correct": "D",
+   "explanation_en": "Case-fatality rate = deaths from the disease / people with the disease.",
+   "explanation_ar": "معدل الوفيات بين المصابين يسمى معدل الإماتة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-25",
+   "n": 25,
+   "task": "3A",
+   "task_name": "Identify data and resources that are important in determining the health status of defined populations",
+   "cognitive": "analysis",
+   "stem": "A hospital's CHNA identifies obesity, mental health access, and maternal outcomes as top community needs. What should happen NEXT?",
+   "options": {
+    "A": "Address only the needs that are likely to generate new revenue",
+    "B": "An implementation strategy with partners, actions, and measures",
+    "C": "Publish the report on the website without any follow-up action",
+    "D": "File the report and wait three years for the next assessment"
+   },
+   "correct": "B",
+   "explanation_en": "A CHNA must be followed by an implementation strategy addressing prioritized needs.",
+   "explanation_ar": "بعد التقييم تُعدّ استراتيجية تنفيذ بالشركاء والإجراءات والمقاييس.",
+   "source": "new"
+  },
+  {
+   "id": "D7-26",
+   "n": 26,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "application",
+   "stem": "A health plan finds that 5% of members account for 50% of costs. What is the BEST population health strategy?",
+   "options": {
+    "A": "Apply the same intervention to all members regardless of their risk",
+    "B": "Disenroll the highest-cost members at the next renewal period",
+    "C": "Focus only on healthy members to keep them from becoming high-cost",
+    "D": "Risk-stratify and manage the highest-risk members intensively"
+   },
+   "correct": "D",
+   "explanation_en": "Matching intervention intensity to risk level is the core of population health management.",
+   "explanation_ar": "صنّف المخاطر وقدّم إدارة رعاية مكثفة للأعلى خطورة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-27",
+   "n": 27,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "The IHI Triple Aim focuses on which three goals?",
+   "options": {
+    "A": "Staffing, supplies, and space",
+    "B": "Accreditation, licensure, and specialty certification",
+    "C": "Experience, population health, and per-capita cost",
+    "D": "Increasing revenue, patient volume, and market share"
+   },
+   "correct": "C",
+   "explanation_en": "The Quadruple Aim adds care-team well-being.",
+   "explanation_ar": "الهدف الثلاثي: تجربة المريض، صحة السكان، خفض التكلفة للفرد.",
+   "source": "new"
+  },
+  {
+   "id": "D7-28",
+   "n": 28,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "analysis",
+   "stem": "An ACO's high-risk patients are rising-risk diabetics who are not yet high utilizers. Which strategy offers the BEST long-term value?",
+   "options": {
+    "A": "Wait until these patients are hospitalized, then manage them",
+    "B": "Increase specialist referrals for every patient with diabetes",
+    "C": "Proactive outreach and self-management support",
+    "D": "Focus only on high utilizers"
+   },
+   "correct": "C",
+   "explanation_en": "Managing rising-risk patients prevents them from becoming high-cost.",
+   "explanation_ar": "التدخل المبكر لفئة المخاطر المتصاعدة يمنع تحولها لعالية التكلفة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-29",
+   "n": 29,
+   "task": "3B",
+   "task_name": "Identify population health management strategies to integrate into improvement initiatives",
+   "cognitive": "application",
+   "stem": "Which payment model gives providers the STRONGEST incentive to keep a population healthy?",
+   "options": {
+    "A": "Traditional fee-for-service payment for each visit",
+    "B": "Capitation or shared savings with quality targets",
+    "C": "Paying a fixed amount for each inpatient day",
+    "D": "Paying separately for each lab test and procedure"
+   },
+   "correct": "B",
+   "explanation_en": "Population-based payment rewards prevention and efficient care rather than volume.",
+   "explanation_ar": "الدفع بالفرد أو الوفورات المشتركة يحفز الحفاظ على صحة السكان.",
+   "source": "new"
+  },
+  {
+   "id": "D7-30",
+   "n": 30,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "application",
+   "stem": "An influenza vaccination campaign for employees is an example of which level of prevention?",
+   "options": {
+    "A": "Primary prevention",
+    "B": "Quaternary prevention",
+    "C": "Tertiary prevention",
+    "D": "Secondary prevention"
+   },
+   "correct": "A",
+   "explanation_en": "Primary prevention stops disease before it occurs.",
+   "explanation_ar": "التطعيم وقاية أولية تمنع المرض قبل حدوثه.",
+   "source": "new"
+  },
+  {
+   "id": "D7-31",
+   "n": 31,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "analysis",
+   "stem": "A diabetes program improved foot-exam rates from 60% to 90%, but amputation rates are unchanged after two years. What is the BEST next step?",
+   "options": {
+    "A": "Declare success, since the foot-exam process measure has improved",
+    "B": "Reduce the exam frequency",
+    "C": "Stop foot exams because they have not lowered amputation rates",
+    "D": "Check whether abnormal exams get timely follow-up care"
+   },
+   "correct": "D",
+   "explanation_en": "Process gains must link to downstream actions to change outcomes.",
+   "explanation_ar": "تحقق من متابعة وعلاج المرضى ذوي الفحص غير الطبيعي.",
+   "source": "new"
+  },
+  {
+   "id": "D7-32",
+   "n": 32,
+   "task": "3C",
+   "task_name": "Incorporate prevention, wellness, and disease management solutions into improvement initiatives",
+   "cognitive": "application",
+   "stem": "Which element is MOST characteristic of an effective chronic disease management program?",
+   "options": {
+    "A": "Specialist-only care for all patients with the disease",
+    "B": "A care-gap registry plus self-management support",
+    "C": "Hospital-based care only",
+    "D": "Annual visits only, with no contact between appointments"
+   },
+   "correct": "B",
+   "explanation_en": "The Chronic Care Model emphasizes registries, decision support, and self-management.",
+   "explanation_ar": "سجل للمرضى لكشف الفجوات مع دعم الإدارة الذاتية.",
+   "source": "new"
+  },
+  {
+   "id": "D7-33",
+   "n": 33,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "application",
+   "stem": "A patient with limited English proficiency needs discharge teaching. What is BEST practice?",
+   "options": {
+    "A": "A qualified medical interpreter, translated materials, teach-back",
+    "B": "Give the standard English instructions only and a phone number",
+    "C": "Speak more slowly and loudly in English during the teaching",
+    "D": "Ask the patient's 12-year-old child to interpret the instructions"
+   },
+   "correct": "A",
+   "explanation_en": "Professional interpreters reduce errors; family members, especially children, are inappropriate for clinical communication.",
+   "explanation_ar": "استخدم مترجماً طبياً مؤهلاً ولا تعتمد على أفراد الأسرة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-34",
+   "n": 34,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "analysis",
+   "stem": "Stratified data show hypertension control at 75% for English speakers and 52% for Arabic-speaking patients in a US clinic. What is the BEST next step?",
+   "options": {
+    "A": "Assume the Arabic-speaking patients are noncompliant with treatment",
+    "B": "Explore causes with affected patients and target the gap",
+    "C": "Report only the overall clinic average to leadership and payers",
+    "D": "Remove language data from reports"
+   },
+   "correct": "B",
+   "explanation_en": "Equity work identifies gaps, engages affected groups, and targets interventions.",
+   "explanation_ar": "حلل أسباب الفجوة مع المرضى المتأثرين وصمم تدخلات موجهة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-35",
+   "n": 35,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "recall",
+   "stem": "The National CLAS Standards address which area?",
+   "options": {
+    "A": "Coding accuracy and documentation standards",
+    "B": "Culturally and linguistically appropriate services",
+    "C": "Clinical laboratory accuracy and proficiency",
+    "D": "Capital budgeting for community health programs"
+   },
+   "correct": "B",
+   "explanation_en": "CLAS standards guide equitable, culturally competent, and language-accessible care.",
+   "explanation_ar": "معايير CLAS تخص الخدمات الملائمة ثقافياً ولغوياً.",
+   "source": "new"
+  },
+  {
+   "id": "D7-36",
+   "n": 36,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "application",
+   "stem": "How should an organization measure progress on a health equity goal?",
+   "options": {
+    "A": "Track the number of equity committee meetings held each year",
+    "B": "Track staff diversity only",
+    "C": "Track only overall averages for the whole patient population",
+    "D": "Track the gap between groups over time"
+   },
+   "correct": "D",
+   "explanation_en": "Equity progress means narrowing disparities between groups.",
+   "explanation_ar": "قِس الفجوة بين الفئات عبر الزمن لا المعدل العام فقط.",
+   "source": "new"
+  },
+  {
+   "id": "D7-37",
+   "n": 37,
+   "task": "3D",
+   "task_name": "Incorporate techniques to address health disparities and promote equity into improvement initiatives",
+   "cognitive": "application",
+   "stem": "Which data collection practice BEST supports identifying disparities?",
+   "options": {
+    "A": "Avoid collecting demographic data so that no patient feels singled out",
+    "B": "Self-reported REaL data in standard categories",
+    "C": "Collect data from insured patients only",
+    "D": "Have registration staff record their best guess of each patient's ethnicity"
+   },
+   "correct": "B",
+   "explanation_en": "Accurate self-reported demographic data enable stratification.",
+   "explanation_ar": "جمع بيانات العرق والإثنية واللغة بالإبلاغ الذاتي يمكّن من كشف الفوارق.",
+   "source": "new"
+  },
+  {
+   "id": "D7-38",
+   "n": 38,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "analysis",
+   "stem": "A readmission dashboard shows similar overall rates for two clinics, but Clinic A serves many patients with housing insecurity. Stratified rates for those patients are twice as high. What should leaders do?",
+   "options": {
+    "A": "Conclude the clinics perform equally",
+    "B": "Penalize Clinic A for its higher rate among housing-insecure patients",
+    "C": "Target housing-insecure patients and track the stratified rate",
+    "D": "Remove housing data from the analysis so that clinics compare fairly"
+   },
+   "correct": "C",
+   "explanation_en": "Stratification reveals hidden disparities that aggregate rates mask.",
+   "explanation_ar": "وجّه التدخلات لمن يعانون من عدم استقرار السكن وراقب المؤشر المقسّم.",
+   "source": "new"
+  },
+  {
+   "id": "D7-39",
+   "n": 39,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "application",
+   "stem": "Which combination of data BEST builds a business case for a community health worker program?",
+   "options": {
+    "A": "Only national averages for community health worker programs",
+    "B": "Only the number of brochures distributed in the community last year",
+    "C": "Utilization, cost, outcome, and SDOH data for the target group",
+    "D": "Only staff opinions about whether community health workers help"
+   },
+   "correct": "C",
+   "explanation_en": "Combining clinical, cost, and SDOH data shows both need and value.",
+   "explanation_ar": "دمج بيانات الاستخدام والتكلفة والنتائج والمحددات الاجتماعية يبني مبرر المشروع.",
+   "source": "new"
+  },
+  {
+   "id": "D7-40",
+   "n": 40,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "application",
+   "stem": "A team wants to monitor an equity-focused diabetes intervention. Which measure is MOST appropriate?",
+   "options": {
+    "A": "HbA1c control stratified by income and language",
+    "B": "Average HbA1c for all clinic patients combined only",
+    "C": "Total number of clinic visits",
+    "D": "Number of diabetes educators hired for the program"
+   },
+   "correct": "A",
+   "explanation_en": "Stratified outcome measures show whether disparities are narrowing.",
+   "explanation_ar": "مقياس النتيجة المقسّم حسب الدخل واللغة يبين تضييق الفجوات.",
+   "source": "new"
+  },
+  {
+   "id": "D7-41",
+   "n": 41,
+   "task": "3E",
+   "task_name": "Analyze and use clinical, cost, equity, and social determinants of health data to drive and monitor improvement efforts",
+   "cognitive": "recall",
+   "stem": "Which data source BEST captures social needs at the patient level for analysis?",
+   "options": {
+    "A": "Standardized SDOH screening in the EHR (Z codes)",
+    "B": "The hospital's published annual community report",
+    "C": "Census data only for the surrounding neighborhoods",
+    "D": "Staff engagement survey results by department"
+   },
+   "correct": "A",
+   "explanation_en": "Patient-level screening data documented consistently enable analysis of social risk.",
+   "explanation_ar": "فحص المحددات الاجتماعية الموحد في السجل الإلكتروني مع رموز Z.",
+   "source": "new"
+  },
+  {
+   "id": "D7-42",
+   "n": 42,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "analysis",
+   "stem": "Readmission review shows most heart failure readmissions occur within 7 days and involve weight gain not reported by patients. Which intervention BEST targets this?",
+   "options": {
+    "A": "Longer discharge summaries",
+    "B": "More inpatient lab tests before discharge to confirm the patient is stable",
+    "C": "48–72-hour calls plus daily-weight teaching with action thresholds",
+    "D": "A patient satisfaction survey mailed to every heart failure patient after discharge"
+   },
+   "correct": "C",
+   "explanation_en": "Interventions should match the root cause: early follow-up and self-monitoring education.",
+   "explanation_ar": "اتصال بعد الخروج خلال 48-72 ساعة وتعليم مراقبة الوزن اليومي.",
+   "source": "new"
+  },
+  {
+   "id": "D7-43",
+   "n": 43,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "application",
+   "stem": "When should discharge planning begin for a hospitalized patient?",
+   "options": {
+    "A": "At admission",
+    "B": "Only if the patient requests it",
+    "C": "After the physician writes the discharge order",
+    "D": "On the day of discharge"
+   },
+   "correct": "A",
+   "explanation_en": "Early discharge planning identifies needs and barriers in time to address them.",
+   "explanation_ar": "يبدأ التخطيط للخروج منذ الدخول.",
+   "source": "new"
+  },
+  {
+   "id": "D7-44",
+   "n": 44,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "analysis",
+   "stem": "Patients discharged to skilled nursing facilities often arrive without medication lists, causing errors. Where is the BEST improvement opportunity?",
+   "options": {
+    "A": "The ED triage process",
+    "B": "The hospital admissions office and bed management process",
+    "C": "The skilled nursing facility's billing and insurance process",
+    "D": "The hospital-to-SNF handoff: what is sent and when"
+   },
+   "correct": "D",
+   "explanation_en": "Information loss at transitions is a key opportunity; focus on the handoff itself.",
+   "explanation_ar": "فرصة التحسين في عملية التسليم بين المستشفى ودار الرعاية.",
+   "source": "new"
+  },
+  {
+   "id": "D7-45",
+   "n": 45,
+   "task": "3F",
+   "task_name": "Identify opportunities for improvement in care transitions",
+   "cognitive": "recall",
+   "stem": "Which measure is MOST commonly used to evaluate the quality of care transitions?",
+   "options": {
+    "A": "Staff overtime",
+    "B": "Number of beds",
+    "C": "30-day readmission rate",
+    "D": "Operating room turnover time"
+   },
+   "correct": "C",
+   "explanation_en": "Readmissions are widely used to reflect transition quality.",
+   "explanation_ar": "معدل إعادة الدخول خلال 30 يوماً يعكس جودة الانتقالات.",
+   "source": "new"
+  },
+  {
+   "id": "D7-46",
+   "n": 46,
+   "task": "3G",
+   "task_name": "Collaborate with stakeholders to improve and optimize care processes and transitions",
+   "cognitive": "application",
+   "stem": "A hospital's COPD readmissions are high, and many patients go to two local home-health agencies. What is the BEST collaborative strategy?",
+   "options": {
+    "A": "Ask the agencies to submit complaints when patients are readmitted",
+    "B": "Stop referring patients to those two agencies and choose new ones",
+    "C": "A joint team with the agencies to standardize handoffs and share data",
+    "D": "Fix only the hospital's internal discharge processes for COPD patients"
+   },
+   "correct": "C",
+   "explanation_en": "Transition problems span settings; collaboration across providers improves results.",
+   "explanation_ar": "شكّل فريقاً مشتركاً مع وكالات الرعاية المنزلية لتوحيد التسليم.",
+   "source": "new"
+  },
+  {
+   "id": "D7-47",
+   "n": 47,
+   "task": "3G",
+   "task_name": "Collaborate with stakeholders to improve and optimize care processes and transitions",
+   "cognitive": "application",
+   "stem": "What is a 'warm handoff' in care transitions?",
+   "options": {
+    "A": "Leaving a voicemail for the receiving clinician after the patient leaves",
+    "B": "A live clinician-to-clinician exchange, ideally with the patient",
+    "C": "Faxing records after discharge",
+    "D": "Giving the patient a sealed envelope of records to hand to the next provider"
+   },
+   "correct": "B",
+   "explanation_en": "Warm handoffs reduce information loss and build patient trust.",
+   "explanation_ar": "التسليم الدافئ تواصل مباشر بين مقدمي الرعاية بحضور المريض.",
+   "source": "new"
+  },
+  {
+   "id": "D7-48",
+   "n": 48,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "application",
+   "stem": "An SDOH screen identifies a patient with unstable housing. What completes a closed-loop referral?",
+   "options": {
+    "A": "Confirming the patient got the service and documenting it",
+    "B": "Telling the patient to search online for local housing programs",
+    "C": "Giving the patient a phone number",
+    "D": "Documenting the housing Z code in the record and closing the case"
+   },
+   "correct": "A",
+   "explanation_en": "Closed-loop referrals track whether the patient actually received the service.",
+   "explanation_ar": "الإحالة مغلقة الحلقة تتأكد من حصول المريض على الخدمة وتوثّق النتيجة.",
+   "source": "new"
+  },
+  {
+   "id": "D7-49",
+   "n": 49,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "analysis",
+   "stem": "A clinic labels patients who miss appointments as 'noncompliant.' SDOH screening shows many lack transportation. What is the BEST improvement?",
+   "options": {
+    "A": "Add more reminder calls only",
+    "B": "Discharge patients from the clinic after two missed visits",
+    "C": "Offer transport help or telehealth and track no-shows",
+    "D": "Document noncompliance more strongly in every patient's chart"
+   },
+   "correct": "C",
+   "explanation_en": "Addressing the social barrier is more effective than labeling the patient.",
+   "explanation_ar": "عالج عائق النقل بالمساعدة أو الرعاية عن بعد بدل وصم المريض.",
+   "source": "new"
+  },
+  {
+   "id": "D7-50",
+   "n": 50,
+   "task": "3H",
+   "task_name": "Incorporate concepts of social determinants of health into improvement activities",
+   "cognitive": "recall",
+   "stem": "Which of the following is a health-related social need (HRSN)?",
+   "options": {
+    "A": "Hypertension",
+    "B": "Medication allergy",
+    "C": "Genetic predisposition",
+    "D": "Food insecurity"
+   },
+   "correct": "D",
+   "explanation_en": "HRSNs include food, housing, transportation, utilities, and interpersonal safety.",
+   "explanation_ar": "انعدام الأمن الغذائي من الاحتياجات الاجتماعية المرتبطة بالصحة.",
+   "source": "new"
+  }
+ ]
+}

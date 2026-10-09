@@ -1,0 +1,909 @@
+{
+ "domain": 2,
+ "title": "Quality Review & Accountability",
+ "nahq_domain": "6",
+ "outline": "NAHQ CPHQ Detailed Content Outline (2024 R2b, in 2026 handbook)",
+ "count": 50,
+ "questions": [
+  {
+   "id": "D2-01",
+   "n": 1,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "application",
+   "stem": "A hospital decides to adopt an externally published, evidence-based sepsis guideline. What should the quality professional do FIRST?",
+   "options": {
+    "A": "Rewrite all sepsis policies word for word",
+    "B": "Do a gap analysis of current practice against the guideline",
+    "C": "Begin auditing physician compliance with the new guideline immediately",
+    "D": "Purchase an electronic sepsis alert system to enforce the guideline"
+   },
+   "correct": "B",
+   "explanation_en": "Applying external best practice starts with understanding where current practice differs (gap analysis). Policy rewrites, audits, and technology come after gaps and priorities are known.",
+   "explanation_ar": "أول خطوة لتطبيق دليل خارجي هي تحليل الفجوة بين الممارسة الحالية والتوصيات.",
+   "source": "old Q1 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-02",
+   "n": 2,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "recall",
+   "stem": "Which statement BEST distinguishes a clinical pathway from a clinical practice guideline?",
+   "options": {
+    "A": "A pathway is a legally binding standard, while a guideline is optional",
+    "B": "A pathway is written by physicians, while a guideline is written by nurses",
+    "C": "A multidisciplinary, time-sequenced plan that puts a guideline into practice",
+    "D": "A pathway applies to all inpatients regardless of their diagnosis"
+   },
+   "correct": "C",
+   "explanation_en": "Guidelines give evidence-based recommendations; pathways translate them into a day-by-day / step-by-step multidisciplinary care plan for a specific population. Neither is automatically legally binding.",
+   "explanation_ar": "المسار السريري خطة متعددة التخصصات ومتسلسلة زمنياً تُطبّق توصيات الدليل.",
+   "source": "old Q2 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-03",
+   "n": 3,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "analysis",
+   "stem": "During pathway monitoring, 18% of patients deviate from the expected day-3 discharge. What is the MOST appropriate response?",
+   "options": {
+    "A": "Analyze variance reasons: patient, practitioner, and system",
+    "B": "Remove variance cases from the data",
+    "C": "Require all practitioners to follow the pathway with no exceptions",
+    "D": "Discontinue the pathway because compliance is below the 85% target"
+   },
+   "correct": "A",
+   "explanation_en": "Variance analysis is the purpose of pathway monitoring. Some variance is clinically justified (patient-driven); system-driven variances are the main improvement opportunities. Excluding data or forbidding all deviation is inappropriate.",
+   "explanation_ar": "حلّل أسباب الانحرافات (مريض، ممارس، نظام) ولا تحذفها من البيانات.",
+   "source": "old Q3 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-04",
+   "n": 4,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "recall",
+   "stem": "Under a quality-based payment program, a hospital's Medicare payments are reduced because its risk-adjusted 30-day readmission ratios exceed expected levels. Which program is this?",
+   "options": {
+    "A": "Hospital-Acquired Condition Reduction Program",
+    "B": "Merit-based Incentive Payment System (MIPS)",
+    "C": "Hospital Inpatient Quality Reporting pay-for-reporting",
+    "D": "Hospital Readmissions Reduction Program (HRRP)"
+   },
+   "correct": "D",
+   "explanation_en": "HRRP adjusts payment for excess readmissions for selected conditions/procedures. HACRP targets hospital-acquired conditions; MIPS applies to clinicians; pay-for-reporting rewards submission, not performance.",
+   "explanation_ar": "برنامج HRRP يخفض المدفوعات بسبب زيادة حالات إعادة الدخول.",
+   "source": "old Q4 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-05",
+   "n": 5,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "recall",
+   "stem": "In a value-based purchasing model that awards points for both achievement and improvement, how is a measure typically scored?",
+   "options": {
+    "A": "The higher of the achievement score or the improvement score",
+    "B": "Only improvement compared with the prior year's performance counts",
+    "C": "The achievement and improvement scores are multiplied together",
+    "D": "Only achievement against the national top-decile benchmark counts"
+   },
+   "correct": "A",
+   "explanation_en": "Achievement-and-improvement designs reward both high performers and organizations improving from a low baseline, usually by taking the higher of the two scores.",
+   "explanation_ar": "يحصل المستشفى على الأعلى بين درجة الإنجاز ودرجة التحسن.",
+   "source": "old Q5 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-06",
+   "n": 6,
+   "task": "6B3",
+   "task_name": "Evaluate compliance: documentation",
+   "cognitive": "analysis",
+   "stem": "A hospital's risk-adjusted mortality index (observed/expected) is unexpectedly high. Chart review shows comorbidities are often not documented. What is the MOST likely effect?",
+   "options": {
+    "A": "Observed mortality is overstated, which inflates the O/E ratio",
+    "B": "Expected mortality is understated, which inflates the O/E ratio",
+    "C": "The ratio is unaffected because risk models use vital signs only",
+    "D": "Expected mortality is overstated, which artificially lowers the ratio"
+   },
+   "correct": "B",
+   "explanation_en": "Risk models rely on coded diagnoses. Missing comorbidities make patients look healthier than they are, so expected deaths fall and O/E rises. Documentation improvement is a quality-data issue, not just billing.",
+   "explanation_ar": "نقص توثيق الأمراض المصاحبة يقلل الوفيات المتوقعة فيرتفع مؤشر O/E.",
+   "source": "old Q6 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-07",
+   "n": 7,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "application",
+   "stem": "A surgeon is newly granted privileges to perform robotic procedures. Which process is required?",
+   "options": {
+    "A": "Ongoing Professional Practice Evaluation (OPPE) only",
+    "B": "External peer review",
+    "C": "Focused Professional Practice Evaluation (FPPE)",
+    "D": "Summary suspension pending competence review"
+   },
+   "correct": "C",
+   "explanation_en": "FPPE applies to new privileges (and to concerns about a practitioner's performance). OPPE is the continuous monitoring of all privileged practitioners. External review and suspension are not routine for new privileges.",
+   "explanation_ar": "الامتيازات الجديدة تتطلب تقييماً مركزاً FPPE.",
+   "source": "old Q7 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-08",
+   "n": 8,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "application",
+   "stem": "Which characteristic is MOST important for an effective and fair peer review process?",
+   "options": {
+    "A": "Review by the department chair alone",
+    "B": "Review limited to cases that have resulted in malpractice lawsuits",
+    "C": "Publishing individual review outcomes to all medical staff",
+    "D": "Peers with relevant expertise using predefined criteria"
+   },
+   "correct": "D",
+   "explanation_en": "Credible peer review uses appropriate peers, standardized criteria/case selection, timeliness, and confidentiality. Single-reviewer, litigation-only, or public disclosure models undermine fairness and protection.",
+   "explanation_ar": "مراجعة الأقران العادلة تتم بأقران مختصين ومعايير محددة مسبقاً.",
+   "source": "old Q8 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-09",
+   "n": 9,
+   "task": "6B5",
+   "task_name": "Evaluate compliance: patient experience",
+   "cognitive": "application",
+   "stem": "Which survey item measures patient EXPERIENCE rather than patient SATISFACTION?",
+   "options": {
+    "A": "\"How often did nurses explain things in a way you could understand?\"",
+    "B": "\"How satisfied were you overall with the quality of the hospital food?\"",
+    "C": "\"Would you rate your stay as excellent compared with other hospitals?\"",
+    "D": "\"How pleased were you with the comfort and cleanliness of your room?\""
+   },
+   "correct": "A",
+   "explanation_en": "Experience items ask whether/how often something happened (reportable events of care). Satisfaction items ask whether expectations were met. Standardized surveys such as HCAHPS emphasize experience.",
+   "explanation_ar": "أسئلة التجربة تسأل ماذا حدث وكم مرة، لا مدى الرضا.",
+   "source": "old Q9 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-10",
+   "n": 10,
+   "task": "6B5",
+   "task_name": "Evaluate compliance: patient experience",
+   "cognitive": "application",
+   "stem": "A patient complains verbally to the charge nurse about delayed pain medication, and the issue cannot be resolved before the patient asks for a formal response. How should this be handled?",
+   "options": {
+    "A": "Treat it as a compliment opportunity and close the case",
+    "B": "Treat it as a grievance and follow the formal grievance process",
+    "C": "Log it only as an informal complaint because it was made verbally",
+    "D": "Refer it to risk management and take no further action on the unit"
+   },
+   "correct": "B",
+   "explanation_en": "A complaint that is not resolved promptly by staff present (or where a written response is requested) becomes a grievance with formal timelines and written response. Verbal vs written is not the deciding factor.",
+   "explanation_ar": "الشكوى غير المحلولة أو التي يُطلب لها رد رسمي تُعامل كتظلّم رسمي.",
+   "source": "old Q10 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-11",
+   "n": 11,
+   "task": "6B6",
+   "task_name": "Evaluate compliance: identification of reportable events for accreditation and regulatory bodies",
+   "cognitive": "recall",
+   "stem": "Under The Joint Commission definition, which outcome classifies a patient safety event as a sentinel event?",
+   "options": {
+    "A": "Any medication error that reaches the patient",
+    "B": "A near miss involving a high-alert medication",
+    "C": "Severe temporary harm to the patient",
+    "D": "Any patient fall"
+   },
+   "correct": "C",
+   "explanation_en": "Sentinel events result in death, permanent harm, or severe temporary harm (plus certain listed events). Many errors, near misses and falls without such harm are not sentinel events.",
+   "explanation_ar": "الحدث الجسيم يشمل الوفاة أو الضرر الدائم أو الضرر المؤقت الشديد.",
+   "source": "old Q11 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-12",
+   "n": 12,
+   "task": "6B6",
+   "task_name": "Evaluate compliance: identification of reportable events for accreditation and regulatory bodies",
+   "cognitive": "application",
+   "stem": "A quality manager identifies an event that meets the state health department's mandatory reporting criteria. What is the BEST action?",
+   "options": {
+    "A": "Delay reporting until the root cause analysis has been completed",
+    "B": "Report only if the patient's family files a formal complaint",
+    "C": "Report only to the accrediting body, since it supersedes the state",
+    "D": "Report to the state on time while the internal review continues"
+   },
+   "correct": "D",
+   "explanation_en": "Mandatory reporting timelines run independently of internal analysis. External reporting obligations to regulators and accreditors are separate; one does not replace the other.",
+   "explanation_ar": "أبلغ الجهة الرسمية في الموعد المطلوب دون انتظار انتهاء التحليل الداخلي.",
+   "source": "old Q12 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-13",
+   "n": 13,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "application",
+   "stem": "Which action is MOST likely to jeopardize legal protection of peer review/QI findings?",
+   "options": {
+    "A": "Filing committee conclusions in the patient's medical record",
+    "B": "Labeling the report 'Confidential – Quality Improvement Work Product'",
+    "C": "Restricting access to committee members with a need to know",
+    "D": "Storing minutes in a secured, access-controlled QI database"
+   },
+   "correct": "A",
+   "explanation_en": "Protection is preserved by keeping QI/peer review documents separate, labeled, and access-restricted. Putting them in the medical record (a discoverable business record) can waive protection.",
+   "explanation_ar": "وضع نتائج مراجعة الأقران في الملف الطبي قد يُسقط الحماية القانونية.",
+   "source": "old Q13 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-14",
+   "n": 14,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "application",
+   "stem": "An analyst requests patient-level data for a falls project. Which principle should guide the data release?",
+   "options": {
+    "A": "Full access – QI staff are entitled to view the entire medical record",
+    "B": "Minimum necessary – only required elements, de-identified if possible",
+    "C": "Patient consent must be obtained in writing for every QI data use",
+    "D": "No release – any QI data use is prohibited by federal privacy law"
+   },
+   "correct": "B",
+   "explanation_en": "Privacy rules generally permit use of PHI for healthcare operations such as QI, but limited to the minimum necessary. Individual consent is not normally required for internal operations.",
+   "explanation_ar": "مبدأ الحد الأدنى الضروري مع إزالة الهوية قدر الإمكان.",
+   "source": "old Q14 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-15",
+   "n": 15,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "recall",
+   "stem": "In the United States, which law created federal privilege and confidentiality protections for patient safety work product reported to a Patient Safety Organization?",
+   "options": {
+    "A": "Health Insurance Portability and Accountability Act of 1996",
+    "B": "Health Care Quality Improvement Act of 1986",
+    "C": "Patient Safety and Quality Improvement Act of 2005",
+    "D": "Emergency Medical Treatment and Labor Act"
+   },
+   "correct": "C",
+   "explanation_en": "PSQIA (2005) established PSOs and privilege for patient safety work product. HCQIA (1986) gives immunity for good-faith peer review and created the NPDB; HIPAA addresses privacy/security; EMTALA addresses emergency screening.",
+   "explanation_ar": "قانون PSQIA لعام 2005 أنشأ منظمات سلامة المرضى وحماية منتجات عملها.",
+   "source": "old Q15 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-16",
+   "n": 16,
+   "task": "6D",
+   "task_name": "Implement and evaluate quality initiatives that impact reimbursement",
+   "cognitive": "recall",
+   "stem": "Why is the Present on Admission (POA) indicator important for quality-related reimbursement?",
+   "options": {
+    "A": "It determines the patient's admission priority and bed placement",
+    "B": "It identifies patients who are eligible for observation status",
+    "C": "It replaces risk adjustment in hospital mortality models entirely",
+    "D": "It separates hospital-acquired conditions, which may not be paid"
+   },
+   "correct": "D",
+   "explanation_en": "POA coding separates pre-existing conditions from hospital-acquired conditions; certain HACs not present on admission do not increase payment and feed penalty programs. Accurate POA documentation protects both data and revenue.",
+   "explanation_ar": "مؤشر POA يميز الحالات المكتسبة في المستشفى التي قد لا يُدفع مقابلها.",
+   "source": "old Q16 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-17",
+   "n": 17,
+   "task": "6D",
+   "task_name": "Implement and evaluate quality initiatives that impact reimbursement",
+   "cognitive": "application",
+   "stem": "A CLABSI reduction project prevented 6 infections this year. Which calculation BEST demonstrates its financial impact?",
+   "options": {
+    "A": "(Infections avoided × cost per infection) − project cost",
+    "B": "Central lines inserted × supply cost",
+    "C": "Total hospital revenue ÷ number of infections reported this year",
+    "D": "Staff hours spent on the project × average hourly wage of the team"
+   },
+   "correct": "A",
+   "explanation_en": "Return on investment compares avoided cost of poor quality with the cost of the intervention. The other options measure activity or inputs only.",
+   "explanation_ar": "العائد = التكلفة المتجنبة ناقص تكلفة المشروع.",
+   "source": "old Q17 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-18",
+   "n": 18,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "recall",
+   "stem": "Which organization develops the Patient Safety Indicators (PSIs) that use administrative (claims) data to flag potential in-hospital complications?",
+   "options": {
+    "A": "Institute for Healthcare Improvement (IHI)",
+    "B": "Agency for Healthcare Research and Quality (AHRQ)",
+    "C": "World Health Organization (WHO) Patient Safety",
+    "D": "The Leapfrog Group hospital safety grade program"
+   },
+   "correct": "B",
+   "explanation_en": "AHRQ Quality Indicators include PSIs, IQIs, PQIs and PDIs. IHI provides improvement methods/campaigns; WHO publishes global safety guidance; Leapfrog publishes hospital safety grades using multiple sources.",
+   "explanation_ar": "وكالة AHRQ تطوّر مؤشرات سلامة المرضى PSIs.",
+   "source": "old Q18 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-19",
+   "n": 19,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "application",
+   "stem": "A hospital compares its surgical-site infection rate with a national benchmark. What is ESSENTIAL for a valid comparison?",
+   "options": {
+    "A": "Using a larger sample than the one used to build the benchmark",
+    "B": "Excluding high-risk patients",
+    "C": "Same measure definitions and appropriate risk adjustment",
+    "D": "Comparing only to hospitals located in the same city or region"
+   },
+   "correct": "C",
+   "explanation_en": "Valid benchmarking requires identical numerator/denominator definitions and adjustment for case mix. Selectively excluding high-risk patients biases results.",
+   "explanation_ar": "المقارنة المرجعية تتطلب تعريفات موحدة وتعديلاً للمخاطر.",
+   "source": "old Q19 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-20",
+   "n": 20,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "application",
+   "stem": "Which data set is MOST appropriate for Ongoing Professional Practice Evaluation (OPPE) of a hospitalist?",
+   "options": {
+    "A": "Hospital-wide patient satisfaction scores for the medicine service",
+    "B": "Number of hours worked and shifts covered by the hospitalist per month",
+    "C": "Department budget variance and supply costs for the quarter",
+    "D": "Practitioner-specific indicators compared with peers over time"
+   },
+   "correct": "D",
+   "explanation_en": "OPPE uses practitioner-specific data relevant to the privileges held (e.g., outcomes, LOS, readmissions, guideline adherence, peer review results), trended and compared to defined targets/peers.",
+   "explanation_ar": "تقييم OPPE يعتمد على مؤشرات خاصة بالممارس ومقارنتها بالأقران.",
+   "source": "old Q20 (reviewed, key verified)"
+  },
+  {
+   "id": "D2-21",
+   "n": 21,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "application",
+   "stem": "A hospital wants to adopt best practices for reducing catheter-associated urinary tract infections. Which source is MOST appropriate?",
+   "options": {
+    "A": "Evidence-based guidance such as CDC/HICPAC or IHI bundles",
+    "B": "A single vendor's marketing study",
+    "C": "Practices copied from the nearest hospital without evidence review",
+    "D": "An internal opinion survey of staff about what they think works"
+   },
+   "correct": "A",
+   "explanation_en": "Best practices should come from credible, evidence-based quality organizations, then be adapted locally.",
+   "explanation_ar": "اعتمد على أدلة مبنية على البراهين من جهات معترف بها مثل CDC وIHI.",
+   "source": "new"
+  },
+  {
+   "id": "D2-22",
+   "n": 22,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "recall",
+   "stem": "Evidence-based practice integrates which three elements?",
+   "options": {
+    "A": "Regulations, budgets, and staffing levels set by leadership",
+    "B": "Cost, speed, and convenience for the organization and its staff",
+    "C": "Research evidence, clinical expertise, and patient values",
+    "D": "Tradition, seniority, and existing organizational policy"
+   },
+   "correct": "C",
+   "explanation_en": "Evidence-based practice combines research evidence, clinician expertise, and patient preferences.",
+   "explanation_ar": "الممارسة المبنية على البراهين تجمع الدليل والخبرة وقيم المريض.",
+   "source": "new"
+  },
+  {
+   "id": "D2-23",
+   "n": 23,
+   "task": "6A",
+   "task_name": "Apply standards, best practices, and other information from quality-related organizations",
+   "cognitive": "analysis",
+   "stem": "A hospital's raw surgical mortality is higher than a peer hospital's, but it performs complex transplants the peer does not. A board member concludes surgical care is worse. What is the BEST response?",
+   "options": {
+    "A": "Stop publishing mortality data until the surgeons' results improve",
+    "B": "Exclude transplant patients from the data",
+    "C": "Agree and launch a disciplinary review of the surgical department",
+    "D": "Explain that outcomes need case-mix risk adjustment first"
+   },
+   "correct": "D",
+   "explanation_en": "Unadjusted outcome comparisons across different case mixes are misleading; risk-adjust first.",
+   "explanation_ar": "لا تقارن النتائج قبل تعديلها وفق شدة الحالات.",
+   "source": "new"
+  },
+  {
+   "id": "D2-24",
+   "n": 24,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "application",
+   "stem": "Compliance with a VTE-prophylaxis order set is 62%. Chart review shows many patients had documented contraindications. What should be done with these cases?",
+   "options": {
+    "A": "Delete the contraindicated patients from the medical record",
+    "B": "Count documented contraindications as measure exclusions",
+    "C": "Count all of them as non-compliant to stay conservative",
+    "D": "Stop using the order set because compliance is too low"
+   },
+   "correct": "B",
+   "explanation_en": "Justified, documented clinical exceptions should be built into the measure definition so compliance reflects true performance.",
+   "explanation_ar": "الاستثناءات السريرية الموثقة تُستبعد من المقياس وفق تعريفه.",
+   "source": "new"
+  },
+  {
+   "id": "D2-25",
+   "n": 25,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "recall",
+   "stem": "Which tool embeds a clinical pathway into daily workflow at the point of ordering?",
+   "options": {
+    "A": "Patient satisfaction survey",
+    "B": "Standardized EHR order set",
+    "C": "Annual policy and procedure review",
+    "D": "Incident reporting and trending system"
+   },
+   "correct": "B",
+   "explanation_en": "Order sets and protocols operationalize pathways where clinicians make decisions.",
+   "explanation_ar": "مجموعات الطلبات القياسية تدمج المسار السريري في العمل اليومي.",
+   "source": "new"
+  },
+  {
+   "id": "D2-26",
+   "n": 26,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "analysis",
+   "stem": "Pathway variance analysis shows most delays in discharge are due to weekend unavailability of physical therapy. How should this variance be classified and addressed?",
+   "options": {
+    "A": "System variance; fix weekend PT coverage",
+    "B": "Patient variance; no action",
+    "C": "Random variance; ignore it because delays are expected",
+    "D": "Practitioner variance; counsel the attending physicians"
+   },
+   "correct": "A",
+   "explanation_en": "System-driven variances (resources, scheduling) are the main targets for process redesign.",
+   "explanation_ar": "هذا انحراف نظامي يُعالج بتحسين تغطية العلاج الطبيعي.",
+   "source": "new"
+  },
+  {
+   "id": "D2-27",
+   "n": 27,
+   "task": "6B1",
+   "task_name": "Evaluate compliance: clinical practice guidelines, pathways, and outcomes",
+   "cognitive": "application",
+   "stem": "Which outcome measure would BEST evaluate whether a new heart failure pathway is effective?",
+   "options": {
+    "A": "Percentage of staff trained on the new pathway",
+    "B": "Number of pathway copies printed and distributed",
+    "C": "Number of pathway committee meetings held this year",
+    "D": "Risk-adjusted 30-day heart failure readmission rate"
+   },
+   "correct": "D",
+   "explanation_en": "Effectiveness is judged by patient outcomes, not activities or outputs.",
+   "explanation_ar": "فعالية المسار تُقاس بالنتائج مثل معدل إعادة الدخول.",
+   "source": "new"
+  },
+  {
+   "id": "D2-28",
+   "n": 28,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "recall",
+   "stem": "A program that pays a hospital only for submitting quality data, regardless of results, is called what?",
+   "options": {
+    "A": "Pay-for-performance",
+    "B": "Pay-for-reporting",
+    "C": "Bundled payment",
+    "D": "Capitation"
+   },
+   "correct": "B",
+   "explanation_en": "Pay-for-reporting rewards data submission; pay-for-performance rewards results.",
+   "explanation_ar": "الدفع مقابل الإبلاغ يكافئ تقديم البيانات لا النتائج.",
+   "source": "new"
+  },
+  {
+   "id": "D2-29",
+   "n": 29,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "application",
+   "stem": "A hospital is in the worst-performing quartile for hospital-acquired conditions and faces a payment reduction. Which program applies?",
+   "options": {
+    "A": "Pay-for-reporting under inpatient quality reporting",
+    "B": "Merit-based Incentive Payment System (MIPS)",
+    "C": "Hospital-Acquired Condition Reduction Program",
+    "D": "Hospital Readmissions Reduction Program (HRRP)"
+   },
+   "correct": "C",
+   "explanation_en": "HACRP reduces payment for hospitals in the worst-performing quartile on HAC measures.",
+   "explanation_ar": "برنامج HACRP يعاقب المستشفيات الأسوأ ربعاً في الحالات المكتسبة.",
+   "source": "new"
+  },
+  {
+   "id": "D2-30",
+   "n": 30,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "recall",
+   "stem": "The Merit-based Incentive Payment System (MIPS) adjusts payments for which group?",
+   "options": {
+    "A": "Nursing homes only",
+    "B": "Pharmaceutical companies",
+    "C": "Acute care hospitals",
+    "D": "Eligible clinicians"
+   },
+   "correct": "D",
+   "explanation_en": "MIPS is a clinician program under the Quality Payment Program, not a hospital program.",
+   "explanation_ar": "برنامج MIPS يخص الأطباء والممارسين وليس المستشفيات.",
+   "source": "new"
+  },
+  {
+   "id": "D2-31",
+   "n": 31,
+   "task": "6B2",
+   "task_name": "Evaluate compliance: quality-based payment programs",
+   "cognitive": "analysis",
+   "stem": "Under a bundled payment for hip replacement, the hospital receives one fixed payment covering 90 days. Which improvement focus offers the GREATEST financial and quality benefit?",
+   "options": {
+    "A": "Extending inpatient length of stay to monitor every patient longer",
+    "B": "Reducing complications, readmissions, and excess post-acute care",
+    "C": "Performing more imaging before discharge to detect complications",
+    "D": "Increasing the number of lab tests per patient during the episode"
+   },
+   "correct": "B",
+   "explanation_en": "In bundles the provider bears the cost of complications, so preventing them improves both quality and margin.",
+   "explanation_ar": "في الدفع المجمّع تقليل المضاعفات وإعادة الدخول يحسن الجودة والعائد.",
+   "source": "new"
+  },
+  {
+   "id": "D2-32",
+   "n": 32,
+   "task": "6B3",
+   "task_name": "Evaluate compliance: documentation",
+   "cognitive": "application",
+   "stem": "A clinical documentation integrity (CDI) specialist finds 'sepsis' documented without supporting clinical indicators. What is the BEST action?",
+   "options": {
+    "A": "Ignore it; coding is not a quality issue",
+    "B": "Code it as sepsis anyway, since this increases the case acuity",
+    "C": "Send a compliant, non-leading query to the physician",
+    "D": "Change the diagnosis in the record directly to match the indicators"
+   },
+   "correct": "C",
+   "explanation_en": "CDI queries must be non-leading and seek clinical clarification; altering records or upcoding is noncompliant.",
+   "explanation_ar": "يُرسل استفسار غير موجّه للطبيب لتوضيح التشخيص.",
+   "source": "new"
+  },
+  {
+   "id": "D2-33",
+   "n": 33,
+   "task": "6B3",
+   "task_name": "Evaluate compliance: documentation",
+   "cognitive": "recall",
+   "stem": "A pressure injury documented as 'not present on admission' that develops during the stay is MOST likely to affect what?",
+   "options": {
+    "A": "HAC reporting and related payment",
+    "B": "Nurse staffing ratio calculations for the unit",
+    "C": "Emergency department triage level assignment",
+    "D": "Admission priority and bed placement decisions"
+   },
+   "correct": "A",
+   "explanation_en": "POA = N flags the condition as hospital-acquired, affecting HAC measures and payment.",
+   "explanation_ar": "تسجيل الحالة كغير موجودة عند الدخول يجعلها مكتسبة ويؤثر على الدفع.",
+   "source": "new"
+  },
+  {
+   "id": "D2-34",
+   "n": 34,
+   "task": "6B3",
+   "task_name": "Evaluate compliance: documentation",
+   "cognitive": "analysis",
+   "stem": "A chart audit finds that 30% of records lack a signed informed-consent form before procedures. What is the BEST next step?",
+   "options": {
+    "A": "Analyze where the consent process breaks down and redesign it",
+    "B": "Add the forms after the procedure",
+    "C": "Stop auditing consent forms because the results are discouraging",
+    "D": "Discipline all proceduralists with missing forms in their records"
+   },
+   "correct": "A",
+   "explanation_en": "Documentation gaps are process problems; analyze and redesign before blaming. Backdating is unethical.",
+   "explanation_ar": "حلل خطوات العملية لمعرفة سبب نقص التوثيق وأعد تصميمها.",
+   "source": "new"
+  },
+  {
+   "id": "D2-35",
+   "n": 35,
+   "task": "6B3",
+   "task_name": "Evaluate compliance: documentation",
+   "cognitive": "application",
+   "stem": "Which documentation practice BEST supports accurate risk-adjusted outcome reporting?",
+   "options": {
+    "A": "Using unapproved abbreviations so that notes are faster to write",
+    "B": "Complete, specific documentation of comorbidities and severity",
+    "C": "Using copy-paste notes from prior admissions to save clinician time",
+    "D": "Documenting only the principal diagnosis to keep records concise"
+   },
+   "correct": "B",
+   "explanation_en": "Risk models depend on specific, complete documentation of comorbidities.",
+   "explanation_ar": "التوثيق الكامل والدقيق للأمراض المصاحبة يدعم دقة تعديل المخاطر.",
+   "source": "new"
+  },
+  {
+   "id": "D2-36",
+   "n": 36,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "application",
+   "stem": "An experienced orthopedic surgeon's OPPE data show a complication rate triple that of peers over two quarters. What should happen NEXT?",
+   "options": {
+    "A": "Wait for the next reappointment cycle in two years to review it",
+    "B": "Publish the surgeon's complication data to all medical staff",
+    "C": "Initiate a time-limited FPPE",
+    "D": "Revoke the surgeon's privileges immediately pending investigation"
+   },
+   "correct": "C",
+   "explanation_en": "OPPE concerns trigger an FPPE to evaluate the issue fairly before any privilege action.",
+   "explanation_ar": "ارتفاع مؤشرات OPPE يستدعي تقييماً مركزاً FPPE.",
+   "source": "new"
+  },
+  {
+   "id": "D2-37",
+   "n": 37,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "recall",
+   "stem": "What is the difference between credentialing and privileging?",
+   "options": {
+    "A": "Privileging verifies education; credentialing grants procedures",
+    "B": "Credentialing applies only to nurses; privileging only to physicians",
+    "C": "They are the same process described with two different names",
+    "D": "Credentialing checks qualifications; privileging grants procedures"
+   },
+   "correct": "D",
+   "explanation_en": "Credentialing checks licensure, training, and experience; privileging defines the scope of practice granted.",
+   "explanation_ar": "الاعتماد يتحقق من المؤهلات، والامتيازات تحدد الإجراءات المسموح بها.",
+   "source": "new"
+  },
+  {
+   "id": "D2-38",
+   "n": 38,
+   "task": "6B4",
+   "task_name": "Evaluate compliance: practitioner performance evaluation",
+   "cognitive": "analysis",
+   "stem": "A peer review committee finds that a physician's case outcome was poor but care met the standard and the complication was a known risk. What is the MOST appropriate determination?",
+   "options": {
+    "A": "Care appropriate; no individual action, but track trends",
+    "B": "Refer the physician to the licensing board for investigation",
+    "C": "Care inappropriate, because the patient's outcome was poor",
+    "D": "Require the physician to complete retraining before operating again"
+   },
+   "correct": "A",
+   "explanation_en": "Peer review judges the care process against standards, not the outcome alone (avoid outcome bias).",
+   "explanation_ar": "مراجعة الأقران تقيّم الرعاية مقابل المعايير لا النتيجة وحدها.",
+   "source": "new"
+  },
+  {
+   "id": "D2-39",
+   "n": 39,
+   "task": "6B5",
+   "task_name": "Evaluate compliance: patient experience",
+   "cognitive": "application",
+   "stem": "HCAHPS scores for 'communication about medicines' are low. What is the BEST improvement strategy?",
+   "options": {
+    "A": "Give patients the printed manufacturer drug inserts only",
+    "B": "Survey only the patients who appear satisfied at discharge",
+    "C": "Use teach-back to explain the purpose and side effects of new drugs",
+    "D": "Remove the medication questions from the survey instrument"
+   },
+   "correct": "C",
+   "explanation_en": "Targeted communication behaviors linked to the survey domain improve the patient's experience.",
+   "explanation_ar": "تثقيف المريض عن الدواء وآثاره باستخدام إعادة الشرح يحسن التجربة.",
+   "source": "new"
+  },
+  {
+   "id": "D2-40",
+   "n": 40,
+   "task": "6B5",
+   "task_name": "Evaluate compliance: patient experience",
+   "cognitive": "analysis",
+   "stem": "A unit's patient-experience scores rose after staff began handing surveys only to patients who seemed happy. What is the main problem?",
+   "options": {
+    "A": "The sample is too large",
+    "B": "Selection bias makes the results invalid",
+    "C": "The survey is too short",
+    "D": "The improvement is real and should be celebrated"
+   },
+   "correct": "B",
+   "explanation_en": "Selective distribution biases the sample; standardized random sampling is required.",
+   "explanation_ar": "توزيع الاستبيان انتقائياً يسبب تحيزاً ويُبطل النتائج.",
+   "source": "new"
+  },
+  {
+   "id": "D2-41",
+   "n": 41,
+   "task": "6B5",
+   "task_name": "Evaluate compliance: patient experience",
+   "cognitive": "recall",
+   "stem": "Which statement about patient grievances is correct?",
+   "options": {
+    "A": "Grievances need a defined process, timelines, and a written reply",
+    "B": "Grievances are handled informally by whichever staff member hears them",
+    "C": "Grievances are optional to track if the patient is later satisfied",
+    "D": "Only complaints submitted in writing can be classified as grievances"
+   },
+   "correct": "A",
+   "explanation_en": "Grievance processes include defined timeframes and written notice of the outcome.",
+   "explanation_ar": "التظلمات تتطلب إجراءات محددة ومواعيد وردّاً مكتوباً للمريض.",
+   "source": "new"
+  },
+  {
+   "id": "D2-42",
+   "n": 42,
+   "task": "6B6",
+   "task_name": "Evaluate compliance: identification of reportable events for accreditation and regulatory bodies",
+   "cognitive": "application",
+   "stem": "An infant is discharged to the wrong family. How should this event be handled for reporting purposes?",
+   "options": {
+    "A": "Treat it as a near miss because the infant was physically unharmed",
+    "B": "Report only if the family complains",
+    "C": "Treat it as a sentinel event and report as required",
+    "D": "Handle it informally between the nurses involved on the unit"
+   },
+   "correct": "C",
+   "explanation_en": "Discharge of an infant to the wrong family is on The Joint Commission's list of sentinel events regardless of harm.",
+   "explanation_ar": "تسليم الرضيع لعائلة خاطئة حدث جسيم يتطلب الإبلاغ.",
+   "source": "new"
+  },
+  {
+   "id": "D2-43",
+   "n": 43,
+   "task": "6B6",
+   "task_name": "Evaluate compliance: identification of reportable events for accreditation and regulatory bodies",
+   "cognitive": "analysis",
+   "stem": "A hospital learns that state law requires reporting of a wrong-site surgery within 24 hours, while its accreditor encourages but does not require reporting. What is the BEST approach?",
+   "options": {
+    "A": "Report only to the accreditor, which oversees surgical safety",
+    "B": "Wait until the RCA is complete before reporting to anyone",
+    "C": "Report to the state within 24 hours; follow accreditor review rules",
+    "D": "Report to neither, because the patient recovered from the surgery"
+   },
+   "correct": "C",
+   "explanation_en": "Mandatory regulatory reporting is required independently; accreditor policies are additional.",
+   "explanation_ar": "الإبلاغ الإلزامي للدولة واجب خلال المدة المحددة بغض النظر عن الاعتماد.",
+   "source": "new"
+  },
+  {
+   "id": "D2-44",
+   "n": 44,
+   "task": "6B6",
+   "task_name": "Evaluate compliance: identification of reportable events for accreditation and regulatory bodies",
+   "cognitive": "recall",
+   "stem": "Which of the following is generally NOT classified as a sentinel event?",
+   "options": {
+    "A": "Unintended retention of a foreign object after surgery",
+    "B": "Wrong-site surgery",
+    "C": "A medication error caught before reaching the patient",
+    "D": "Patient suicide in a staffed care setting"
+   },
+   "correct": "C",
+   "explanation_en": "Near misses do not reach the patient and are not sentinel events, although they should be reported internally.",
+   "explanation_ar": "الخطأ الذي اكتُشف قبل وصوله للمريض حدث وشيك وليس جسيماً.",
+   "source": "new"
+  },
+  {
+   "id": "D2-45",
+   "n": 45,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "application",
+   "stem": "A plaintiff's attorney requests copies of a hospital's peer review minutes. What is the quality professional's FIRST step?",
+   "options": {
+    "A": "Summarize the minutes in the patient's chart for the attorney",
+    "B": "Send the minutes promptly to avoid a court order",
+    "C": "Destroy the minutes before they can be subpoenaed",
+    "D": "Refer the request to legal counsel to protect privilege"
+   },
+   "correct": "D",
+   "explanation_en": "Peer review privilege must be protected through legal counsel; disclosure or destruction is inappropriate.",
+   "explanation_ar": "أحِل الطلب للمستشار القانوني لتطبيق الحماية القانونية.",
+   "source": "new"
+  },
+  {
+   "id": "D2-46",
+   "n": 46,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "application",
+   "stem": "A quality analyst wants to share a falls dashboard with an external collaborative. What should be done?",
+   "options": {
+    "A": "Refuse to share any data externally",
+    "B": "Share aggregate de-identified data under a data-use agreement",
+    "C": "Share the full patient list with names so results can be validated",
+    "D": "Email the dashboard from a personal account to avoid the firewall"
+   },
+   "correct": "B",
+   "explanation_en": "External sharing should be de-identified and governed by agreements to protect privacy.",
+   "explanation_ar": "شارك بيانات مجمّعة ومجهولة الهوية ضمن اتفاقية استخدام.",
+   "source": "new"
+  },
+  {
+   "id": "D2-47",
+   "n": 47,
+   "task": "6C",
+   "task_name": "Maintain confidentiality of performance/quality improvement records and reports",
+   "cognitive": "recall",
+   "stem": "The Health Care Quality Improvement Act (HCQIA) of 1986 is BEST known for what?",
+   "options": {
+    "A": "Creating Patient Safety Organizations and federal privilege",
+    "B": "Peer review immunity and creating the NPDB",
+    "C": "Establishing the HIPAA privacy and security rules",
+    "D": "Requiring emergency screening and stabilization"
+   },
+   "correct": "B",
+   "explanation_en": "HCQIA gives immunity to good-faith peer review and created the NPDB.",
+   "explanation_ar": "قانون HCQIA يمنح الحصانة لمراجعة الأقران بحسن نية وأنشأ بنك بيانات الممارسين.",
+   "source": "new"
+  },
+  {
+   "id": "D2-48",
+   "n": 48,
+   "task": "6D",
+   "task_name": "Implement and evaluate quality initiatives that impact reimbursement",
+   "cognitive": "analysis",
+   "stem": "A readmission-reduction program cost SAR 300,000 and avoided SAR 900,000 in penalties and readmission costs. What is the ROI?",
+   "options": {
+    "A": "66%",
+    "B": "33%",
+    "C": "300%",
+    "D": "200%"
+   },
+   "correct": "D",
+   "explanation_en": "ROI = (benefit − cost) / cost = (900,000 − 300,000) / 300,000 = 2.0, or 200%.",
+   "explanation_ar": "العائد = (الفائدة − التكلفة) ÷ التكلفة = 200%.",
+   "source": "new"
+  },
+  {
+   "id": "D2-49",
+   "n": 49,
+   "task": "6D",
+   "task_name": "Implement and evaluate quality initiatives that impact reimbursement",
+   "cognitive": "recall",
+   "stem": "Which is an example of the cost of poor quality?",
+   "options": {
+    "A": "Extra stay caused by a hospital-acquired infection",
+    "B": "Purchase of standard supplies at negotiated contract prices",
+    "C": "Annual staff training budget for mandatory education",
+    "D": "Routine preventive maintenance of biomedical equipment"
+   },
+   "correct": "A",
+   "explanation_en": "Cost of poor quality includes rework, complications, and failures such as HAIs.",
+   "explanation_ar": "تكلفة الجودة الرديئة تشمل الإقامة الإضافية بسبب العدوى المكتسبة.",
+   "source": "new"
+  },
+  {
+   "id": "D2-50",
+   "n": 50,
+   "task": "6D",
+   "task_name": "Implement and evaluate quality initiatives that impact reimbursement",
+   "cognitive": "application",
+   "stem": "A hospital wants to show leadership how a CAUTI project affected reimbursement. Which measure set is MOST useful?",
+   "options": {
+    "A": "CAUTI trend, avoided cost per case, and HAC penalty change",
+    "B": "Number of CAUTI committee meetings held during the year",
+    "C": "Hours spent by the infection preventionist on the project",
+    "D": "Number of urinary catheters purchased compared with last year"
+   },
+   "correct": "A",
+   "explanation_en": "Financial impact links outcome change to avoided costs and penalties, not activity counts.",
+   "explanation_ar": "اربط تغيّر النتيجة بالتكاليف والغرامات المتجنبة لا بعدد الأنشطة.",
+   "source": "new"
+  }
+ ]
+}

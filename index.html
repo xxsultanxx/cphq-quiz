@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b2545">
+<title>CPHQ Practice Quizzes</title><link rel="icon" href="data:,">
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Arabic",Tahoma,Arial,sans-serif;background:#f1f5f9;color:#0f172a}
+header{background:linear-gradient(135deg,#0b2545,#13315c);color:#fff;padding:26px 18px 22px}
+header h1{margin:0 auto;max-width:760px;font-size:22px}
+header p{margin:6px auto 0;max-width:760px;color:#99f6e4;font-size:14px}
+header p.ar{direction:rtl;text-align:right;color:#e2e8f0}
+main{max-width:760px;margin:0 auto;padding:16px 14px 40px}
+a.dom{display:flex;align-items:center;gap:14px;background:#fff;border-radius:16px;padding:16px;margin-bottom:12px;text-decoration:none;color:inherit;box-shadow:0 1px 4px rgba(15,23,42,.08);min-height:72px;border-left:5px solid #14b8a6}
+.num{flex:0 0 42px;height:42px;border-radius:12px;background:#0b2545;color:#fff;font-weight:800;font-size:20px;display:flex;align-items:center;justify-content:center}
+.t{flex:1}.t b{display:block;font-size:16px}.t small{display:block;color:#64748b;font-size:13px}.t small.pr{color:#0d9488;font-weight:700}
+.go{font-size:28px;color:#14b8a6}
+footer{font-size:12px;color:#64748b;max-width:760px;margin:0 auto;padding:0 14px 30px}
+</style></head><body>
+<header><h1>CPHQ Practice Quizzes</h1><p>350 practice MCQs · 7 domains · mapped to every NAHQ outline task</p><p class="ar" dir="rtl">اختر الإجابة وسيظهر لك الصحيح والشرح فوراً، والنتيجة في النهاية.</p></header>
+<main>
+<a class="dom" href="domain-01.html" data-d="1"><span class="num">1</span><span class="t"><b>Quality Leadership & Integration</b><small>50 questions · NAHQ domain 1</small><small class="pr" id="pr1"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-02.html" data-d="2"><span class="num">2</span><span class="t"><b>Quality Review & Accountability</b><small>50 questions · NAHQ domain 6</small><small class="pr" id="pr2"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-03.html" data-d="3"><span class="num">3</span><span class="t"><b>Regulatory & Accreditation</b><small>50 questions · NAHQ domain 7</small><small class="pr" id="pr3"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-04.html" data-d="4"><span class="num">4</span><span class="t"><b>Patient Safety</b><small>50 questions · NAHQ domain 5</small><small class="pr" id="pr4"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-05.html" data-d="5"><span class="num">5</span><span class="t"><b>Performance & Process Improvement</b><small>50 questions · NAHQ domain 2</small><small class="pr" id="pr5"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-06.html" data-d="6"><span class="num">6</span><span class="t"><b>Health Data Analytics</b><small>50 questions · NAHQ domain 4</small><small class="pr" id="pr6"></small></span><span class="go">›</span></a>
+<a class="dom" href="domain-07.html" data-d="7"><span class="num">7</span><span class="t"><b>Population Health & Care Transitions</b><small>50 questions · NAHQ domain 3</small><small class="pr" id="pr7"></small></span><span class="go">›</span></a>
+
+</main>
+<footer>Practice items written for study; not actual exam questions. Progress is saved on this device.</footer>
+<script>
+for(var d=1;d<=7;d++){try{var s=JSON.parse(localStorage.getItem('cphq-quiz-d'+d+'-v2'));if(s&&s.ans){var n=Object.keys(s.ans).length;if(n)document.getElementById('pr'+d).textContent=(s.done?'Finished':'In progress')+' · '+n+' answered'}}catch(e){}}
+</script>
+</body></html>

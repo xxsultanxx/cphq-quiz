@@ -1,0 +1,909 @@
+{
+ "domain": 5,
+ "title": "Performance & Process Improvement",
+ "nahq_domain": "2",
+ "outline": "NAHQ CPHQ Detailed Content Outline (2024 R2b, in 2026 handbook)",
+ "count": 50,
+ "questions": [
+  {
+   "id": "D5-01",
+   "n": 1,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "application",
+   "stem": "A falls team predicted that hourly rounding would cut falls by 30% on one pilot unit. After two weeks they compare the actual fall data with that prediction. Which PDSA phase is this?",
+   "options": {
+    "A": "Plan",
+    "B": "Study",
+    "C": "Do",
+    "D": "Act"
+   },
+   "correct": "B",
+   "explanation_en": "Study = analyze the data and compare results against the prediction made in Plan. Do = run the test and collect data; Act = adopt, adapt, or abandon.",
+   "explanation_ar": "مقارنة النتائج بالتوقع تتم في مرحلة الدراسة (Study).",
+   "source": "old Q1 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-02",
+   "n": 2,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "recall",
+   "stem": "Why does the Model for Improvement recommend testing a change on a small scale (one nurse, one shift) before spreading it?",
+   "options": {
+    "A": "Because small tests always produce statistically significant results",
+    "B": "To learn quickly at low risk and refine the change",
+    "C": "To meet accreditation requirements that mandate formal pilot studies",
+    "D": "To avoid collecting data"
+   },
+   "correct": "B",
+   "explanation_en": "Small, rapid cycles limit harm and cost if the idea fails and let the team adapt it; scale increases as confidence grows.",
+   "explanation_ar": "الاختبار الصغير يتيح التعلم السريع بأقل خطر قبل التوسع.",
+   "source": "old Q2 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-03",
+   "n": 3,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "application",
+   "stem": "Nurses on a medical unit walk to a supply room at the far end of the hall many times per shift. In Lean terms, this is primarily which waste?",
+   "options": {
+    "A": "Inventory",
+    "B": "Overproduction",
+    "C": "Motion",
+    "D": "Transportation"
+   },
+   "correct": "C",
+   "explanation_en": "Motion = unnecessary movement of PEOPLE. Transportation = unnecessary movement of materials, specimens, or patients. A common exam trap.",
+   "explanation_ar": "مشي الممرضات لمسافات طويلة هدر في الحركة (Motion).",
+   "source": "old Q3 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-04",
+   "n": 4,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "application",
+   "stem": "A Six Sigma team has mapped the process and collected baseline defect data. They now use hypothesis tests to confirm which factors truly drive the defects. Which DMAIC phase are they in?",
+   "options": {
+    "A": "Control",
+    "B": "Define",
+    "C": "Measure",
+    "D": "Analyze"
+   },
+   "correct": "D",
+   "explanation_en": "Analyze = identify and verify root causes with data. Measure = baseline performance; Control = sustain gains.",
+   "explanation_ar": "التحقق من الأسباب الجذرية بالبيانات يتم في مرحلة التحليل.",
+   "source": "old Q4 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-05",
+   "n": 5,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "recall",
+   "stem": "A process performing at a Six Sigma level produces approximately how many defects?",
+   "options": {
+    "A": "1 defect per hundred opportunities",
+    "B": "Zero defects",
+    "C": "3.4 defects per thousand opportunities",
+    "D": "3.4 defects per million opportunities"
+   },
+   "correct": "D",
+   "explanation_en": "Six Sigma = 3.4 DPMO (with the conventional 1.5-sigma shift). It is near-perfect, not zero.",
+   "explanation_ar": "مستوى ستة سيجما = 3.4 عيب لكل مليون فرصة.",
+   "source": "old Q5 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-06",
+   "n": 6,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "recall",
+   "stem": "After Shine in a 5S workplace-organization effort, which step comes next?",
+   "options": {
+    "A": "Standardize",
+    "B": "Sort",
+    "C": "Set in order",
+    "D": "Sustain"
+   },
+   "correct": "A",
+   "explanation_en": "Order: Sort, Set in order, Shine, Standardize, Sustain.",
+   "explanation_ar": "بعد التلميع تأتي مرحلة التوحيد القياسي (Standardize).",
+   "source": "old Q6 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-07",
+   "n": 7,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "A team wants to brainstorm and organize the possible causes of delayed lab results into categories such as people, methods, equipment, and environment. Which tool fits best?",
+   "options": {
+    "A": "Gantt chart of the lab workflow",
+    "B": "Fishbone (Ishikawa) diagram",
+    "C": "Pareto chart of delay frequency",
+    "D": "Control chart of turnaround times"
+   },
+   "correct": "B",
+   "explanation_en": "The fishbone organizes POTENTIAL causes by category. It does not prove causation or rank causes; Pareto ranks them by frequency.",
+   "explanation_ar": "مخطط عظم السمكة ينظم الأسباب المحتملة في فئات.",
+   "source": "old Q7 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-08",
+   "n": 8,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "An FMEA team scoring the specimen-labeling process gives one failure mode a Detection score of 10. What does this score mean?",
+   "options": {
+    "A": "The failure is almost always caught before it can cause harm",
+    "B": "The failure occurs very often",
+    "C": "The failure will almost surely go undetected",
+    "D": "The failure would have catastrophic severity if it reached a patient"
+   },
+   "correct": "C",
+   "explanation_en": "In FMEA, a high detection score means the failure is HARD to detect; RPN = Severity × Occurrence × Detection.",
+   "explanation_ar": "درجة الاكتشاف العالية تعني صعوبة اكتشاف الفشل قبل وصوله للمريض.",
+   "source": "replaced old Q8 (duplicate of another domain's item)"
+  },
+  {
+   "id": "D5-09",
+   "n": 9,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "recall",
+   "stem": "Medication-error reports are tallied by type and sorted from most to least frequent with a cumulative-percentage line. What is the main purpose of this chart?",
+   "options": {
+    "A": "To focus on the 'vital few' causing most errors",
+    "B": "To show how error rates vary from month to month over time",
+    "C": "To relate two variables",
+    "D": "To prove the root cause of each medication error statistically"
+   },
+   "correct": "A",
+   "explanation_en": "This is a Pareto chart (80/20 principle) used to prioritize. Time-based variation needs a run or control chart.",
+   "explanation_ar": "مخطط باريتو يركز على القلة الحيوية المسببة لمعظم المشكلة.",
+   "source": "old Q9 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-10",
+   "n": 10,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "Which tool best shows the handoffs between the ED, radiology, and the inpatient unit in an admission process?",
+   "options": {
+    "A": "Affinity diagram of ideas",
+    "B": "Swim-lane flowchart",
+    "C": "Scatter diagram of wait times",
+    "D": "Histogram of admission delays"
+   },
+   "correct": "B",
+   "explanation_en": "Swim lanes assign each step to a department or role, making handoffs and delays between groups visible.",
+   "explanation_ar": "المخطط الانسيابي متعدد المسارات يوضح التسليم بين الأقسام.",
+   "source": "old Q10 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-11",
+   "n": 11,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "A team generated 60 improvement ideas on sticky notes and now wants to sort them into natural themes. Which tool should they use?",
+   "options": {
+    "A": "Force-field analysis",
+    "B": "FMEA",
+    "C": "Affinity diagram",
+    "D": "Fishbone diagram"
+   },
+   "correct": "C",
+   "explanation_en": "Affinity diagrams group many ideas or verbatim comments into themes. Multivoting or nominal group technique would then prioritize them.",
+   "explanation_ar": "مخطط التقارب يجمع الأفكار الكثيرة في مواضيع.",
+   "source": "old Q11 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-12",
+   "n": 12,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "application",
+   "stem": "Which design feature is an example of mistake-proofing (poka-yoke)?",
+   "options": {
+    "A": "Connectors that cannot attach enteral feeds to IV lines",
+    "B": "A memo reminding staff to double-check every tubing connection",
+    "C": "Disciplining staff who misconnect lines so others are more careful",
+    "D": "Annual tubing competency training"
+   },
+   "correct": "A",
+   "explanation_en": "Poka-yoke makes the error hard or impossible through design. Memos and training are weaker, person-dependent fixes.",
+   "explanation_ar": "منع الخطأ بالتصميم (Poka-yoke) يجعل الخطأ مستحيلاً.",
+   "source": "old Q12 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-13",
+   "n": 13,
+   "task": "2D",
+   "task_name": "Establish teams, roles, responsibilities, and scope",
+   "cognitive": "recall",
+   "stem": "Which senior leader role on a PI team secures resources, removes organizational barriers, and is accountable for the project's success?",
+   "options": {
+    "A": "Facilitator of the team process",
+    "B": "Process owner responsible for daily work",
+    "C": "Recorder/scribe who documents decisions",
+    "D": "Executive sponsor"
+   },
+   "correct": "D",
+   "explanation_en": "The sponsor provides authority and resources. The facilitator guides group process and stays neutral on content. The process owner runs the process day to day and sustains the change.",
+   "explanation_ar": "الراعي التنفيذي يوفر الموارد ويزيل العوائق.",
+   "source": "old Q13 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-14",
+   "n": 14,
+   "task": "2J",
+   "task_name": "Evaluate team effectiveness",
+   "cognitive": "application",
+   "stem": "Several weeks into a project, team members openly disagree about roles and whose approach is right. According to Tuckman, the team is in which stage?",
+   "options": {
+    "A": "Performing",
+    "B": "Forming",
+    "C": "Norming",
+    "D": "Storming"
+   },
+   "correct": "D",
+   "explanation_en": "Storming = conflict over roles, direction, and power. It is normal; the facilitator helps the team move toward Norming.",
+   "explanation_ar": "الخلاف على الأدوار من سمات مرحلة العاصفة وهو طبيعي.",
+   "source": "old Q14 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-15",
+   "n": 15,
+   "task": "2D",
+   "task_name": "Establish teams, roles, responsibilities, and scope",
+   "cognitive": "analysis",
+   "stem": "Midway through a sepsis-bundle project, a physician asks the team to also fix ED boarding. What is the BEST response?",
+   "options": {
+    "A": "Ignore the request",
+    "B": "Stop the sepsis project and restart it with a broader combined aim",
+    "C": "Add ED boarding immediately to keep the physician engaged and supportive",
+    "D": "Check it against the charter scope; the sponsor decides"
+   },
+   "correct": "D",
+   "explanation_en": "This is scope creep. The charter defines scope; changes go through the sponsor. A separate project may be chartered later.",
+   "explanation_ar": "هذا توسع في النطاق؛ يُراجع مقابل الميثاق ويُعرض على الراعي.",
+   "source": "old Q15 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-16",
+   "n": 16,
+   "task": "2C",
+   "task_name": "Identify quality improvement opportunities",
+   "cognitive": "application",
+   "stem": "Which aim statement is written in the most SMART form?",
+   "options": {
+    "A": "Improve infection prevention practices in the ICU over the coming year",
+    "B": "Eliminate all hospital infections as soon as possible across every unit",
+    "C": "Cut ICU CLABSI from 2.1 to 1.0/1,000 line-days by 30 Jun 2027",
+    "D": "Staff will try harder on the bundle"
+   },
+   "correct": "C",
+   "explanation_en": "SMART = Specific, Measurable, Achievable, Relevant, Time-bound. Only one option has a baseline, a target, a unit of measure, and a deadline.",
+   "explanation_ar": "الهدف الذكي محدد وقابل للقياس وله خط أساس وموعد.",
+   "source": "old Q16 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-17",
+   "n": 17,
+   "task": "2I",
+   "task_name": "Participate in monitoring of project timelines and deliverables",
+   "cognitive": "application",
+   "stem": "A task on the project's critical path slips by one week, and nothing else changes. What is the effect?",
+   "options": {
+    "A": "The project finishes earlier",
+    "B": "There is no effect, because the other tasks on the plan have float",
+    "C": "The project end date slips by one week",
+    "D": "Only the budget of the next dependent task is affected by the slip"
+   },
+   "correct": "C",
+   "explanation_en": "Critical-path tasks have zero slack, so any delay on them delays the whole project. A Gantt chart shows timelines; the critical path is the longest dependent sequence.",
+   "explanation_ar": "تأخر مهمة في المسار الحرج يؤخر المشروع كله.",
+   "source": "old Q17 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-18",
+   "n": 18,
+   "task": "2F",
+   "task_name": "Lead and facilitate change",
+   "cognitive": "application",
+   "stem": "Many nurses resist a new bedside handoff process. What is the MOST effective first approach?",
+   "options": {
+    "A": "Mandate the change and audit compliance on every shift",
+    "B": "Engage staff, hear concerns, and involve them in testing",
+    "C": "Postpone the change indefinitely until resistance fades",
+    "D": "Replace the most resistant staff with nurses who support it"
+   },
+   "correct": "B",
+   "explanation_en": "Change-management principles stress involvement, communicating the 'why' (urgency), and co-design. Mandates without engagement rarely sustain.",
+   "explanation_ar": "إشراك الموظفين وفهم مخاوفهم هو أفضل بداية لإدارة التغيير.",
+   "source": "old Q18 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-19",
+   "n": 19,
+   "task": "2K",
+   "task_name": "Evaluate the success of performance improvement projects and solutions",
+   "cognitive": "application",
+   "stem": "A unit reached its hand-hygiene target three months ago. What BEST ensures the gain is sustained?",
+   "options": {
+    "A": "Hand off to the owner with a control plan and ongoing charting",
+    "B": "Close the project and stop measuring",
+    "C": "Celebrate the success and disband the team without any formal handoff",
+    "D": "Restart a new PDSA cycle on the same change to confirm it still works"
+   },
+   "correct": "A",
+   "explanation_en": "Sustainment (DMAIC Control / PDSA Act) requires an owner, standard work, and ongoing measurement to detect backsliding.",
+   "explanation_ar": "الاستدامة تتطلب تسليم العملية لمالك مع خطة تحكم ومراقبة.",
+   "source": "old Q19 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-20",
+   "n": 20,
+   "task": "2G",
+   "task_name": "Use performance improvement methods (e.g., Lean, PDSA, Six Sigma)",
+   "cognitive": "application",
+   "stem": "A team wants to visualize the full patient flow for an outpatient MRI, distinguishing value-added time from waiting time to calculate total lead time. Which tool is BEST?",
+   "options": {
+    "A": "Value stream map",
+    "B": "Scatter diagram of wait times",
+    "C": "Pareto chart of delay causes",
+    "D": "Check sheet of patient arrivals"
+   },
+   "correct": "A",
+   "explanation_en": "A value stream map shows process steps, information flow, wait times, and value-added versus non-value-added time across the whole stream.",
+   "explanation_ar": "خريطة تدفق القيمة تميز الوقت المضاف للقيمة عن الانتظار.",
+   "source": "old Q20 (reviewed, key verified)"
+  },
+  {
+   "id": "D5-21",
+   "n": 21,
+   "task": "2A",
+   "task_name": "Implement quality improvement training",
+   "cognitive": "application",
+   "stem": "A hospital is launching PDSA-based improvement on all units. Which training approach is MOST effective?",
+   "options": {
+    "A": "Hands-on, just-in-time training on a real project",
+    "B": "Train senior leaders only",
+    "C": "A single annual lecture on PDSA for all staff in the auditorium",
+    "D": "Emailing a PDSA template and a short guide to every unit manager"
+   },
+   "correct": "A",
+   "explanation_en": "Adult learners retain QI skills best when training is applied immediately to real work with coaching.",
+   "explanation_ar": "التدريب العملي في وقت الحاجة على مشروع حقيقي هو الأكثر فاعلية.",
+   "source": "new"
+  },
+  {
+   "id": "D5-22",
+   "n": 22,
+   "task": "2A",
+   "task_name": "Implement quality improvement training",
+   "cognitive": "recall",
+   "stem": "Which approach describes tailoring QI training content to different audiences, such as board members versus front-line staff?",
+   "options": {
+    "A": "Training content based on seniority level",
+    "B": "One-size-fits-all training for every staff role",
+    "C": "Self-study modules only, with no live sessions",
+    "D": "Audience-specific (tiered) training"
+   },
+   "correct": "D",
+   "explanation_en": "QI education should match the role and needs of each audience.",
+   "explanation_ar": "التدريب يُصمم حسب الفئة المستهدفة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-23",
+   "n": 23,
+   "task": "2A",
+   "task_name": "Implement quality improvement training",
+   "cognitive": "analysis",
+   "stem": "After QI training, participants' test scores improved, but no new improvement projects were started. Which evaluation level was NOT achieved?",
+   "options": {
+    "A": "Reaction (satisfaction with the course)",
+    "B": "Behavior (applying learning on the job)",
+    "C": "Learning (knowledge and skill gain)",
+    "D": "Attendance (completion of all sessions)"
+   },
+   "correct": "B",
+   "explanation_en": "Kirkpatrick levels: reaction, learning, behavior, results; knowledge gain without application stops at learning.",
+   "explanation_ar": "لم يتحقق مستوى تغيير السلوك أي تطبيق المعرفة في العمل.",
+   "source": "new"
+  },
+  {
+   "id": "D5-24",
+   "n": 24,
+   "task": "2B",
+   "task_name": "Communicate quality improvement information within the organization",
+   "cognitive": "application",
+   "stem": "Which tool BEST communicates a QI project's problem, aim, data, changes tested, and results on a single page for staff?",
+   "options": {
+    "A": "A detailed meeting agenda and minutes",
+    "B": "A Gantt chart of the project schedule",
+    "C": "A storyboard or A3 report",
+    "D": "A raw data spreadsheet of all measurements"
+   },
+   "correct": "C",
+   "explanation_en": "Storyboards and A3s summarize the improvement story visually for broad communication.",
+   "explanation_ar": "لوحة القصة أو تقرير A3 تلخص المشروع في صفحة واحدة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-25",
+   "n": 25,
+   "task": "2B",
+   "task_name": "Communicate quality improvement information within the organization",
+   "cognitive": "application",
+   "stem": "Front-line staff say they never hear about results of QI projects on their unit. What is the BEST action?",
+   "options": {
+    "A": "Post results on huddle boards and discuss them often",
+    "B": "Send results to managers only",
+    "C": "Keep project results confidential within the quality department",
+    "D": "Present the results once a year at the organization's quality conference"
+   },
+   "correct": "A",
+   "explanation_en": "Regular, visible communication at the unit level sustains engagement.",
+   "explanation_ar": "عرض النتائج على لوحات الوحدة ومناقشتها في الاجتماعات القصيرة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-26",
+   "n": 26,
+   "task": "2B",
+   "task_name": "Communicate quality improvement information within the organization",
+   "cognitive": "analysis",
+   "stem": "The quality team sends the same 40-page report to the board, physicians, and unit staff. Engagement is low in all groups. What is the BEST change?",
+   "options": {
+    "A": "Make the report longer so every reader finds what they need",
+    "B": "Stop sending reports, since engagement is low in every group",
+    "C": "Send it more often",
+    "D": "Tailor format and detail to each audience"
+   },
+   "correct": "D",
+   "explanation_en": "Effective communication matches content and format to the audience.",
+   "explanation_ar": "خصص صيغة التقرير وتفاصيله حسب كل فئة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-27",
+   "n": 27,
+   "task": "2C",
+   "task_name": "Identify quality improvement opportunities",
+   "cognitive": "application",
+   "stem": "Which data source would MOST likely reveal an improvement opportunity in surgical care?",
+   "options": {
+    "A": "Trended SSI rates compared with a benchmark",
+    "B": "Cafeteria menu choices and patient meal complaints",
+    "C": "Staff parking usage and garage occupancy reports",
+    "D": "Office supply orders placed by the surgical departments"
+   },
+   "correct": "A",
+   "explanation_en": "Opportunities are identified through performance data compared with targets or benchmarks.",
+   "explanation_ar": "مقارنة معدلات العدوى بالمعايير المرجعية تكشف فرص التحسين.",
+   "source": "new"
+  },
+  {
+   "id": "D5-28",
+   "n": 28,
+   "task": "2C",
+   "task_name": "Identify quality improvement opportunities",
+   "cognitive": "analysis",
+   "stem": "Patient complaints, incident reports, and a run chart all show rising delays in discharge medication delivery. What does this triangulation suggest?",
+   "options": {
+    "A": "A coincidence across sources that needs no action",
+    "B": "A staffing problem in an unrelated support department",
+    "C": "A strong, validated improvement opportunity",
+    "D": "A data error affecting all three sources at once"
+   },
+   "correct": "C",
+   "explanation_en": "Multiple independent sources pointing to the same issue strengthen the case for improvement.",
+   "explanation_ar": "تطابق عدة مصادر يؤكد وجود فرصة تحسين حقيقية.",
+   "source": "new"
+  },
+  {
+   "id": "D5-29",
+   "n": 29,
+   "task": "2C",
+   "task_name": "Identify quality improvement opportunities",
+   "cognitive": "recall",
+   "stem": "Which method gathers ideas for improvement directly from patients' perspectives?",
+   "options": {
+    "A": "Voice of the customer methods",
+    "B": "Control chart of patient complaints over time",
+    "C": "RPN calculation from a failure mode analysis",
+    "D": "Critical path analysis of the project schedule"
+   },
+   "correct": "A",
+   "explanation_en": "Voice-of-the-customer methods capture patient needs and expectations.",
+   "explanation_ar": "صوت العميل يجمع احتياجات المرضى وتوقعاتهم.",
+   "source": "new"
+  },
+  {
+   "id": "D5-30",
+   "n": 30,
+   "task": "2C",
+   "task_name": "Identify quality improvement opportunities",
+   "cognitive": "application",
+   "stem": "A project charter's problem statement reads: 'Nurses are lazy about turning patients.' What is the BEST revision?",
+   "options": {
+    "A": "'Pressure injuries are bad for patients and must be stopped on 4West immediately.'",
+    "B": "'Nurses on 4West must work harder to turn their patients every two hours.'",
+    "C": "'4West needs new pressure-relieving mattresses to solve its injury problem.'",
+    "D": "'4West pressure injuries rose from 1.2 to 3.5 per 1,000 patient-days in 6 months.'"
+   },
+   "correct": "D",
+   "explanation_en": "Problem statements should be factual, measurable, and free of blame or solutions.",
+   "explanation_ar": "بيان المشكلة يجب أن يكون واقعياً وقابلاً للقياس بلا لوم ولا حلول.",
+   "source": "new"
+  },
+  {
+   "id": "D5-31",
+   "n": 31,
+   "task": "2D",
+   "task_name": "Establish teams, roles, responsibilities, and scope",
+   "cognitive": "application",
+   "stem": "Who should be on a team improving the inpatient medication-reconciliation process?",
+   "options": {
+    "A": "Only pharmacists",
+    "B": "Only the quality department staff who analyze the reconciliation data",
+    "C": "Nurses, pharmacists, physicians, and a patient advisor",
+    "D": "Only senior executives who can approve changes to the process quickly"
+   },
+   "correct": "C",
+   "explanation_en": "Teams should include people who know and perform the process, plus customers.",
+   "explanation_ar": "يضم الفريق من يؤدون العمل فعلياً مع ممثل للمرضى.",
+   "source": "new"
+  },
+  {
+   "id": "D5-32",
+   "n": 32,
+   "task": "2D",
+   "task_name": "Establish teams, roles, responsibilities, and scope",
+   "cognitive": "recall",
+   "stem": "Which role guides group process, keeps the team on track, and remains neutral on content?",
+   "options": {
+    "A": "Sponsor",
+    "B": "Facilitator",
+    "C": "Process owner",
+    "D": "Subject matter expert"
+   },
+   "correct": "B",
+   "explanation_en": "The facilitator manages group dynamics and methods without steering content.",
+   "explanation_ar": "الميسّر يدير سير الفريق ويبقى محايداً في المحتوى.",
+   "source": "new"
+  },
+  {
+   "id": "D5-33",
+   "n": 33,
+   "task": "2D",
+   "task_name": "Establish teams, roles, responsibilities, and scope",
+   "cognitive": "application",
+   "stem": "What is the PRIMARY purpose of a project charter?",
+   "options": {
+    "A": "Record the minutes and attendance of every team meeting",
+    "B": "Evaluate the performance of each team member for annual review",
+    "C": "Define problem, aim, scope, team, and timeline with the sponsor",
+    "D": "List all possible solutions before any data have been collected"
+   },
+   "correct": "C",
+   "explanation_en": "The charter sets boundaries and expectations and formalizes sponsorship.",
+   "explanation_ar": "الميثاق يحدد المشكلة والهدف والنطاق والفريق والجدول بموافقة الراعي.",
+   "source": "new"
+  },
+  {
+   "id": "D5-34",
+   "n": 34,
+   "task": "2E",
+   "task_name": "Participate in activities to identify innovative or evidence-based practices",
+   "cognitive": "application",
+   "stem": "A team wants new ideas to reduce ED boarding. Which approach BEST identifies proven practices?",
+   "options": {
+    "A": "Review the literature and benchmark top performers",
+    "B": "Ask a single vendor",
+    "C": "Rely on the team's past habits and what has always worked here",
+    "D": "Wait for a new regulation that tells hospitals what to do"
+   },
+   "correct": "A",
+   "explanation_en": "Evidence reviews and benchmarking visits identify proven, transferable practices.",
+   "explanation_ar": "مراجعة الأدبيات والمقارنة بالمنظمات المتميزة تكشف الممارسات المجربة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-35",
+   "n": 35,
+   "task": "2E",
+   "task_name": "Participate in activities to identify innovative or evidence-based practices",
+   "cognitive": "recall",
+   "stem": "Which practice describes adopting the best practices of a recognized leader outside one's own industry?",
+   "options": {
+    "A": "Internal benchmarking between units",
+    "B": "Competitive pricing analysis of rivals",
+    "C": "Random sampling of peer organizations",
+    "D": "Generic (functional) benchmarking"
+   },
+   "correct": "D",
+   "explanation_en": "Generic benchmarking learns from leaders in similar processes in other industries, e.g., airline checklists.",
+   "explanation_ar": "المقارنة الوظيفية تتعلم من الرواد خارج القطاع.",
+   "source": "new"
+  },
+  {
+   "id": "D5-36",
+   "n": 36,
+   "task": "2E",
+   "task_name": "Participate in activities to identify innovative or evidence-based practices",
+   "cognitive": "analysis",
+   "stem": "A published trial shows a new early-mobility protocol reduced ICU delirium at an academic center. A small community hospital wants to adopt it. What is the BEST approach?",
+   "options": {
+    "A": "Assess local fit and test with small PDSA cycles",
+    "B": "Reject it because it was not local",
+    "C": "Implement it hospital-wide on day one since the evidence is published",
+    "D": "Wait for at least five more trials before considering any change"
+   },
+   "correct": "A",
+   "explanation_en": "Evidence should be adapted to local context and tested on a small scale.",
+   "explanation_ar": "قيّم ملاءمة الدليل للسياق المحلي واختبره بدورات صغيرة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-37",
+   "n": 37,
+   "task": "2E",
+   "task_name": "Participate in activities to identify innovative or evidence-based practices",
+   "cognitive": "application",
+   "stem": "Which group technique generates many creative ideas quickly without immediate criticism?",
+   "options": {
+    "A": "Force-field analysis",
+    "B": "Control charting",
+    "C": "Brainstorming",
+    "D": "Multivoting"
+   },
+   "correct": "C",
+   "explanation_en": "Brainstorming separates idea generation from evaluation to encourage creativity.",
+   "explanation_ar": "العصف الذهني يولد أفكاراً كثيرة دون نقد فوري.",
+   "source": "new"
+  },
+  {
+   "id": "D5-38",
+   "n": 38,
+   "task": "2F",
+   "task_name": "Lead and facilitate change",
+   "cognitive": "application",
+   "stem": "A team uses force-field analysis before introducing bedside shift report. What is its main purpose?",
+   "options": {
+    "A": "Track tasks against the timeline",
+    "B": "Map driving and restraining forces to plan the change",
+    "C": "Calculate the full cost and return on investment of the change",
+    "D": "Rank the root causes of the problem by how often they occur"
+   },
+   "correct": "B",
+   "explanation_en": "Force-field analysis maps forces for and against change to plan strategies.",
+   "explanation_ar": "تحليل مجال القوى يحدد القوى الدافعة والمعيقة للتغيير.",
+   "source": "new"
+  },
+  {
+   "id": "D5-39",
+   "n": 39,
+   "task": "2F",
+   "task_name": "Lead and facilitate change",
+   "cognitive": "recall",
+   "stem": "In Rogers' diffusion of innovations, which group is MOST useful to recruit early to spread a change?",
+   "options": {
+    "A": "Early adopters and opinion leaders",
+    "B": "Late majority who follow established practice",
+    "C": "People outside the organization such as vendors",
+    "D": "Laggards, to convert the strongest resisters first"
+   },
+   "correct": "A",
+   "explanation_en": "Respected early adopters influence peers and accelerate spread.",
+   "explanation_ar": "المتبنون الأوائل وقادة الرأي يسرّعون انتشار التغيير.",
+   "source": "new"
+  },
+  {
+   "id": "D5-40",
+   "n": 40,
+   "task": "2F",
+   "task_name": "Lead and facilitate change",
+   "cognitive": "analysis",
+   "stem": "Six months after a new hand-off tool was rolled out with strong early compliance, use has drifted back to 50%. Which change-management step was MOST likely missed?",
+   "options": {
+    "A": "Communicating the vision for the new hand-off tool",
+    "B": "Anchoring it with reinforcement and ownership",
+    "C": "Forming a guiding coalition of respected leaders",
+    "D": "Creating a sense of urgency before the rollout began"
+   },
+   "correct": "B",
+   "explanation_en": "Without anchoring and reinforcement, changes regress to old habits.",
+   "explanation_ar": "لم يُرسّخ التغيير في الثقافة بالتعزيز والقياس والملكية.",
+   "source": "new"
+  },
+  {
+   "id": "D5-41",
+   "n": 41,
+   "task": "2F",
+   "task_name": "Lead and facilitate change",
+   "cognitive": "application",
+   "stem": "What is the BEST way to communicate the need for a change to skeptical staff?",
+   "options": {
+    "A": "Share data and a patient story showing the gap",
+    "B": "Threaten penalties for non-compliance",
+    "C": "Avoid discussing the reason so staff focus on the new steps instead",
+    "D": "Announce a mandate from leadership without any further explanation"
+   },
+   "correct": "A",
+   "explanation_en": "Data plus stories create a compelling 'why' and sense of urgency.",
+   "explanation_ar": "البيانات مع قصة مريض تقنع الموظفين بضرورة التغيير.",
+   "source": "new"
+  },
+  {
+   "id": "D5-42",
+   "n": 42,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "A team wants to test whether door-to-needle time is related to the hour of patient arrival. Which tool is BEST?",
+   "options": {
+    "A": "Pareto chart",
+    "B": "Flowchart",
+    "C": "Affinity diagram",
+    "D": "Scatter diagram"
+   },
+   "correct": "D",
+   "explanation_en": "A scatter diagram shows the relationship between two variables.",
+   "explanation_ar": "مخطط التشتت يوضح العلاقة بين متغيرين.",
+   "source": "new"
+  },
+  {
+   "id": "D5-43",
+   "n": 43,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "recall",
+   "stem": "Which tool defines a process at a high level by listing Suppliers, Inputs, Process, Outputs, and Customers?",
+   "options": {
+    "A": "Check sheet",
+    "B": "SIPOC diagram",
+    "C": "Run chart",
+    "D": "Fishbone diagram"
+   },
+   "correct": "B",
+   "explanation_en": "SIPOC scopes a process at a high level, often in Define.",
+   "explanation_ar": "مخطط SIPOC يحدد العملية على مستوى عالٍ.",
+   "source": "new"
+  },
+  {
+   "id": "D5-44",
+   "n": 44,
+   "task": "2H",
+   "task_name": "Use quality tools and techniques (e.g., fishbone diagram, FMEA, process map)",
+   "cognitive": "application",
+   "stem": "Staff want a simple way to tally how often each type of interruption occurs during medication passes. Which tool fits BEST?",
+   "options": {
+    "A": "Value stream map",
+    "B": "Check sheet",
+    "C": "Scatter diagram",
+    "D": "Control chart"
+   },
+   "correct": "B",
+   "explanation_en": "Check sheets are simple structured forms for counting occurrences by category.",
+   "explanation_ar": "ورقة التحقق أداة بسيطة لعدّ تكرار كل نوع.",
+   "source": "new"
+  },
+  {
+   "id": "D5-45",
+   "n": 45,
+   "task": "2I",
+   "task_name": "Participate in monitoring of project timelines and deliverables",
+   "cognitive": "application",
+   "stem": "A project's milestone review shows data collection is three weeks behind. What should the project leader do FIRST?",
+   "options": {
+    "A": "Cancel the project",
+    "B": "Skip data collection and move on to implementing the changes",
+    "C": "Find the cause and update the plan with the sponsor",
+    "D": "Ignore the delay until the end and report it in the final summary"
+   },
+   "correct": "C",
+   "explanation_en": "Monitoring timelines means identifying slippage early and re-planning with the sponsor.",
+   "explanation_ar": "حدّد سبب التأخير وحدّث الخطة مع الراعي.",
+   "source": "new"
+  },
+  {
+   "id": "D5-46",
+   "n": 46,
+   "task": "2I",
+   "task_name": "Participate in monitoring of project timelines and deliverables",
+   "cognitive": "recall",
+   "stem": "Which term describes the longest sequence of dependent tasks that determines the shortest possible project duration?",
+   "options": {
+    "A": "Float (slack)",
+    "B": "Milestone schedule",
+    "C": "Critical path",
+    "D": "Scope creep"
+   },
+   "correct": "C",
+   "explanation_en": "The critical path has zero slack; delays on it delay the project.",
+   "explanation_ar": "المسار الحرج هو أطول تسلسل مهام يحدد مدة المشروع.",
+   "source": "new"
+  },
+  {
+   "id": "D5-47",
+   "n": 47,
+   "task": "2J",
+   "task_name": "Evaluate team effectiveness",
+   "cognitive": "application",
+   "stem": "Which is the BEST indicator that a QI team is functioning effectively?",
+   "options": {
+    "A": "Meetings always run long",
+    "B": "Meetings produce decisions and completed actions",
+    "C": "Members never disagree with each other or the team leader",
+    "D": "Only the team leader speaks, which keeps meetings focused"
+   },
+   "correct": "B",
+   "explanation_en": "Effective teams achieve outputs and progress toward the aim; healthy disagreement is normal.",
+   "explanation_ar": "الفريق الفعال يتخذ قرارات وينجز مهام نحو الهدف.",
+   "source": "new"
+  },
+  {
+   "id": "D5-48",
+   "n": 48,
+   "task": "2J",
+   "task_name": "Evaluate team effectiveness",
+   "cognitive": "analysis",
+   "stem": "A team's meeting evaluations show members feel unheard and attendance is falling. What should the facilitator do?",
+   "options": {
+    "A": "Disband the team",
+    "B": "Shorten every meeting to five minutes to improve attendance",
+    "C": "Revisit ground rules and use structured participation",
+    "D": "Ignore the evaluations, since complaints are normal in teams"
+   },
+   "correct": "C",
+   "explanation_en": "Team self-evaluation results should drive changes in process and ground rules.",
+   "explanation_ar": "راجع قواعد العمل واستخدم أساليب منظمة لضمان مشاركة متوازنة.",
+   "source": "new"
+  },
+  {
+   "id": "D5-49",
+   "n": 49,
+   "task": "2K",
+   "task_name": "Evaluate the success of performance improvement projects and solutions",
+   "cognitive": "analysis",
+   "stem": "A project reduced average ED length of stay by 40 minutes, but left-without-being-seen rates rose. How should success be evaluated?",
+   "options": {
+    "A": "Ignore the LWBS rate",
+    "B": "Weigh the outcome and balancing measure; adjust the change",
+    "C": "Declare full success, since the length-of-stay target was achieved",
+    "D": "Abandon all improvement work in the ED to avoid further side effects"
+   },
+   "correct": "B",
+   "explanation_en": "Success requires achieving the aim without unacceptable effects on balancing measures.",
+   "explanation_ar": "يُقيّم النجاح بالنتيجة ومقياس التوازن معاً.",
+   "source": "new"
+  },
+  {
+   "id": "D5-50",
+   "n": 50,
+   "task": "2K",
+   "task_name": "Evaluate the success of performance improvement projects and solutions",
+   "cognitive": "application",
+   "stem": "Which chart BEST shows whether improvement after a change is sustained over time?",
+   "options": {
+    "A": "A pie chart of results for the most recent month only",
+    "B": "A word cloud of comments",
+    "C": "A single bar showing the latest result compared with target",
+    "D": "A run or control chart before and after the change"
+   },
+   "correct": "D",
+   "explanation_en": "Time-series charts demonstrate shifts and sustainment.",
+   "explanation_ar": "مخطط التشغيل أو التحكم يبين استمرار التحسن عبر الزمن.",
+   "source": "new"
+  }
+ ]
+}
