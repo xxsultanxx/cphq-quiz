@@ -8,25 +8,30 @@ header h1{margin:0 auto;max-width:760px;font-size:22px}
 header p{margin:6px auto 0;max-width:760px;color:#99f6e4;font-size:14px}
 header p.ar{direction:rtl;text-align:right;color:#e2e8f0}
 main{max-width:760px;margin:0 auto;padding:16px 14px 40px}
-a.dom{display:flex;align-items:center;gap:14px;background:#fff;border-radius:16px;padding:16px;margin-bottom:12px;text-decoration:none;color:inherit;box-shadow:0 1px 4px rgba(15,23,42,.08);min-height:72px;border-left:5px solid #14b8a6}
+div.dom{background:#fff;border-radius:16px;padding:16px;margin-bottom:12px;text-decoration:none;color:inherit;box-shadow:0 1px 4px rgba(15,23,42,.08);min-height:72px;border-left:5px solid #14b8a6}
 .num{flex:0 0 42px;height:42px;border-radius:12px;background:#0b2545;color:#fff;font-weight:800;font-size:20px;display:flex;align-items:center;justify-content:center}
 .t{flex:1}.t b{display:block;font-size:16px}.t small{display:block;color:#64748b;font-size:13px}.t small.pr{color:#0d9488;font-weight:700}
-.go{font-size:28px;color:#14b8a6}
+.top{display:flex;align-items:center;gap:14px}
+.btns{display:flex;gap:10px;margin-top:12px}
+.btns a{flex:1;display:block;text-align:center;text-decoration:none;font-weight:800;font-size:17px;border-radius:12px;padding:12px 8px;min-height:52px;font-family:inherit}
+.btns a small{display:block;font-size:11px;font-weight:600;opacity:.85;margin-top:2px}
+.b50{background:#0b2545;color:#fff}.b10{background:#14b8a6;color:#fff}
 footer{font-size:12px;color:#64748b;max-width:760px;margin:0 auto;padding:0 14px 30px}
 </style></head><body>
-<header><h1>CPHQ Practice Quizzes</h1><p>350 practice MCQs · 7 domains · mapped to every NAHQ outline task</p><p class="ar" dir="rtl">اختر الإجابة وسيظهر لك الصحيح والشرح فوراً، والنتيجة في النهاية.</p></header>
+<header><h1>CPHQ Practice Quizzes</h1><p>350 practice MCQs · 7 domains · full 50 or quick 10 per domain</p><p class="ar" dir="rtl">اختر الإجابة وسيظهر لك الصحيح والشرح فوراً، والنتيجة في النهاية.</p></header>
 <main>
-<a class="dom" href="domain-01.html" data-d="1"><span class="num">1</span><span class="t"><b>Quality Leadership & Integration</b><small>50 questions · NAHQ domain 1</small><small class="pr" id="pr1"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-02.html" data-d="2"><span class="num">2</span><span class="t"><b>Quality Review & Accountability</b><small>50 questions · NAHQ domain 6</small><small class="pr" id="pr2"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-03.html" data-d="3"><span class="num">3</span><span class="t"><b>Regulatory & Accreditation</b><small>50 questions · NAHQ domain 7</small><small class="pr" id="pr3"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-04.html" data-d="4"><span class="num">4</span><span class="t"><b>Patient Safety</b><small>50 questions · NAHQ domain 5</small><small class="pr" id="pr4"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-05.html" data-d="5"><span class="num">5</span><span class="t"><b>Performance & Process Improvement</b><small>50 questions · NAHQ domain 2</small><small class="pr" id="pr5"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-06.html" data-d="6"><span class="num">6</span><span class="t"><b>Health Data Analytics</b><small>50 questions · NAHQ domain 4</small><small class="pr" id="pr6"></small></span><span class="go">›</span></a>
-<a class="dom" href="domain-07.html" data-d="7"><span class="num">7</span><span class="t"><b>Population Health & Care Transitions</b><small>50 questions · NAHQ domain 3</small><small class="pr" id="pr7"></small></span><span class="go">›</span></a>
+<div class="dom" data-d="1"><div class="top"><span class="num">1</span><span class="t"><b>Quality Leadership & Integration</b><small>NAHQ domain 1 · 50-question bank</small><small class="pr" id="pr1"></small><small class="pr" id="pq1"></small></span></div><div class="btns"><a class="b50" href="domain-01.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-01.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="2"><div class="top"><span class="num">2</span><span class="t"><b>Quality Review & Accountability</b><small>NAHQ domain 6 · 50-question bank</small><small class="pr" id="pr2"></small><small class="pr" id="pq2"></small></span></div><div class="btns"><a class="b50" href="domain-02.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-02.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="3"><div class="top"><span class="num">3</span><span class="t"><b>Regulatory & Accreditation</b><small>NAHQ domain 7 · 50-question bank</small><small class="pr" id="pr3"></small><small class="pr" id="pq3"></small></span></div><div class="btns"><a class="b50" href="domain-03.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-03.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="4"><div class="top"><span class="num">4</span><span class="t"><b>Patient Safety</b><small>NAHQ domain 5 · 50-question bank</small><small class="pr" id="pr4"></small><small class="pr" id="pq4"></small></span></div><div class="btns"><a class="b50" href="domain-04.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-04.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="5"><div class="top"><span class="num">5</span><span class="t"><b>Performance & Process Improvement</b><small>NAHQ domain 2 · 50-question bank</small><small class="pr" id="pr5"></small><small class="pr" id="pq5"></small></span></div><div class="btns"><a class="b50" href="domain-05.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-05.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="6"><div class="top"><span class="num">6</span><span class="t"><b>Health Data Analytics</b><small>NAHQ domain 4 · 50-question bank</small><small class="pr" id="pr6"></small><small class="pr" id="pq6"></small></span></div><div class="btns"><a class="b50" href="domain-06.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-06.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
+<div class="dom" data-d="7"><div class="top"><span class="num">7</span><span class="t"><b>Population Health & Care Transitions</b><small>NAHQ domain 3 · 50-question bank</small><small class="pr" id="pr7"></small><small class="pr" id="pq7"></small></span></div><div class="btns"><a class="b50" href="domain-07.html">50 سؤال<small>Full 50 questions</small></a><a class="b10" href="quick-07.html">10 أسئلة سريع<small>Quick 10 random</small></a></div></div>
 
 </main>
 <footer>Practice items written for study; not actual exam questions. Progress is saved on this device.</footer>
 <script>
-for(var d=1;d<=7;d++){try{var s=JSON.parse(localStorage.getItem('cphq-quiz-d'+d+'-v2'));if(s&&s.ans){var n=Object.keys(s.ans).length;if(n)document.getElementById('pr'+d).textContent=(s.done?'Finished':'In progress')+' · '+n+' answered'}}catch(e){}}
+for(var d=1;d<=7;d++){try{var s=JSON.parse(localStorage.getItem('cphq-quiz-d'+d+'-v2'));if(s&&s.ans){var n=Object.keys(s.ans).length;if(n)document.getElementById('pr'+d).textContent='50: '+(s.done?'Finished':'In progress')+' · '+n+' answered'}}catch(e){}
+ try{var q=JSON.parse(localStorage.getItem('cphq-quick-d'+d+'-v1'));if(q&&q.ans){var m=Object.keys(q.ans).length;if(m&&!q.done)document.getElementById('pq'+d).textContent='Quick 10: in progress · '+m+'/10'}}catch(e){}}
 </script>
 </body></html>
